@@ -1,0 +1,188 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header ul {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+header ul li {
+    font-size: 24px;
+    height: 40px;
+    line-height: 40px;
+    padding: 13px;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+
+.logo-vpf{
+    float: left;
+    width: 150px;
+}
+
+.nav_2 {
+    background-color: green;
+    font-family: 'Comfortaa', cursive;
+}
+
+.nav_1 li{
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left:  12px;
+    margin-right: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.nav_1 li:hover {
+    border: 1px solid rgba(196, 18, 18, 0.867);
+    border-radius: 15px;
+}
+
+.nav_2 li{
+    margin-left: 37px;
+    margin-right: 37px;
+    font-size: 15px;
+}
+
+.nav_2 li:hover {
+    background-color: rgb(3, 93, 30);
+}
+
+/* body */
+
+main {
+    height: 800px;
+    width: 100%;
+}
+
+main .body-left {
+    float: left;
+    width: 13%;
+    background-color: red;
+    height: 600px;
+}
+
+main .nhataitro {
+    height: 140px;
+    background-color: #dddd;
+}
+
+
+main .anhbody {
+    background-image: url(https://media-cdn.laodong.vn/storage/newsportal/2020/8/27/831352/Skysports-Premier-Le.png);
+    height: 460px;
+}
+
+.nhataitro li{
+    display: inline-block;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header ul {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+header ul li {
+    font-size: 24px;
+    height: 40px;
+    line-height: 40px;
+    padding: 13px;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+
+.logo-vpf{
+    float: left;
+    width: 151px ;
+}
+
+.nav_1 li{
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left:  12px;
+    margin-right: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav_2 li{
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+/* body */
+
+main {
+    height: 800px;
+    width: 100%;
+}
+
+main .body-left {
+    float: left;
+    width: 13%;
+    background-color: blue;
+    height: 621px;
+}
+
+main .nhataitro {
+    height: 140px;
+    background-color: #fff
+}
+
+
+main .anhbody {
+    background-image: url(https://i.ytimg.com/vi/lzrSQsr1b1Y/maxresdefault.jpg);
+    height: 460px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nhataitro li{
+    display: inline-block;
+    font-size: 24px;
+    line-height: 40px;
+    padding: 24px;
+    background-color: #ffff;
+}
+.nhataitro ul{
+    background-color: #ffffff;
+    text-align: center;
+    /* margin: 0px;
+    padding: 0px; */
+
+}
+.nhataitro a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.chunen{
+    font-size: bold;
+    color: #fff;
+    text-align: center;
+    padding-top: px;
+}
