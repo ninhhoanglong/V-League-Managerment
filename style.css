@@ -1,7 +1,10 @@
-body {
+body{
     margin: 0px;
     padding: 0px;
+    background-image: url(/images/background.jpeg);
 }
+
+/* long - header */
 
 header ul {
     background-color: #ffffff;
@@ -12,11 +15,13 @@ header ul {
 }
 
 header ul li {
-    font-size: 24px;
+    font-size: 20px;
     height: 40px;
+    text-decoration: uppercase;
     line-height: 40px;
     padding: 13px;
     display: inline-block;
+    font-family: 'Comfortaa', 'cursive', sans-serif;
 }
 
 li a {
@@ -24,7 +29,6 @@ li a {
     color: #fff;
     text-align: center;
 }
-
 
 .logo-vpf{
     float: left;
@@ -32,93 +36,10 @@ li a {
 }
 
 .nav_2 {
-    background-color: green;
-    font-family: 'Comfortaa', cursive;
-}
-
-.nav_1 li{
-    border: 1px solid;
-    border-radius: 10px;
-    margin-left:  12px;
-    margin-right: 12px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-.nav_1 li:hover {
-    border: 1px solid rgba(196, 18, 18, 0.867);
-    border-radius: 15px;
-}
-
-.nav_2 li{
-    margin-left: 37px;
-    margin-right: 37px;
-    font-size: 15px;
-}
-
-.nav_2 li:hover {
-    background-color: rgb(3, 93, 30);
-}
-
-/* body */
-
-main {
-    height: 800px;
-    width: 100%;
-}
-
-main .body-left {
-    float: left;
-    width: 13%;
-    background-color: red;
-    height: 600px;
-}
-
-main .nhataitro {
-    height: 140px;
-    background-color: #dddd;
-}
-
-
-main .anhbody {
-    background-image: url(https://media-cdn.laodong.vn/storage/newsportal/2020/8/27/831352/Skysports-Premier-Le.png);
-    height: 460px;
-}
-
-.nhataitro li{
-    display: inline-block;
-}
-body {
-    margin: 0px;
-    padding: 0px;
-}
-
-header ul {
-    background-color: #ffffff;
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-}
-
-header ul li {
-    font-size: 24px;
-    height: 40px;
-    line-height: 40px;
-    padding: 13px;
-    display: inline-block;
-}
-
-li a {
-    text-decoration: none;
-    color: #fff;
-    text-align: center;
-}
-
-
-.logo-vpf{
-    float: left;
-    width: 151px ;
+    background-color:green;
+    float: right;
+    border-radius:5px;
+    width: 90%;
 }
 
 .nav_1 li{
@@ -130,36 +51,40 @@ li a {
     margin-bottom: 10px;
 }
 
+.nav_1 li:hover {
+    border: 1px solid rgba(196, 18, 18, 0.867);
+    border-radius: 15px;
+}
+
 .nav_2 li{
     margin-left: 37px;
     margin-right: 37px;
 }
 
-/* body */
+.nav_2 li:hover {
+    background-color: rgb(207, 44, 44);
+    border-radius: 10px;
+}
 
+
+/* thong, hung, phuoc - body */
+
+/* thong - body right_bottom */
 main {
     height: 800px;
     width: 100%;
 }
 
-main .body-left {
-    float: left;
-    width: 13%;
-    background-color: blue;
-    height: 621px;
-}
-
 main .nhataitro {
-    height: 140px;
-    background-color: #fff
+    background-color: #dddd;
 }
-
 
 main .anhbody {
+    background-repeat: no-repeat;
     background-image: url(https://i.ytimg.com/vi/lzrSQsr1b1Y/maxresdefault.jpg);
-    height: 460px;
-    margin: 0px;
+    height: 1000px;
     padding: 0px;
+    margin-left: 100px;
 }
 
 .nhataitro li{
@@ -186,3 +111,185 @@ main .anhbody {
     text-align: center;
     padding-top: px;
 }
+
+/* ky - footer */
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+footer .container .noi-dung{
+    margin-right: 30px;
+}
+footer  .container .noi-dung.about{
+    width:40%;
+}
+footer .container .noi-dung.about h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer .container .noi-dung.about h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+footer .container .noi-dung.about p{
+    color: #999;
+}
+.social-icon{
+    margin-top: 20px;
+    display: flex;
+}
+.social-icon li {
+    list-style: none;
+}
+.social-icon li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.social-icon li a:hover{
+    background: #f00;
+}
+.social-icon li a .fa{
+    color: #fff;
+    font-size: 20px;
+}
+.links h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.links h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.links h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.links{
+   position: relative;
+   width: 25%;
+}
+.links ul li{
+    list-style: none;
+}
+.links ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.links ul li a:hover{
+    color: #fff;
+}
+.contact h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.contact h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.contact{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+.contact .info{
+    position: relative;
+}
+.contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contact .info li span{
+    color: #999;
+}
+.contact .info li a{
+    color: #999;
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin-top:16px;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+.btn--primary {
+    background: #222;
+    color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    padding: 8px 24px;
+}
+.btn--primary:hover {
+    background: #f00;
+}
+.btn--primary:active {
+    background: #f00;
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
+}
+.form__field {
+    width: 90%;
+    background: #fff;
+    color: #a3a3a3;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+    border: 0;
+    outline: 0;
+    padding: 8px 4px;
+}
+
