@@ -3,12 +3,12 @@
     padding: 0px;
 }
 body{
-    background-image: url(/images/background.jpeg);
+    background-image: url(/images/background.png);
 }
 /* long - header */
 
 header ul {
-    background-color: #ffffff;
+    background-color: rgba(17, 17, 17, 0);
     text-align: center;
     padding: 0px;
     margin: 0px;
@@ -38,15 +38,13 @@ li a {
 .nav_2 {
     margin: 0;
     padding: 0;
-    background-color:green;
+    background-color:rgb(23, 128, 23);
     float: right;
     border-radius:5px;
     width: 90%;
 }
 
 .nav_1 li{
-    border: 1px solid;
-    border-radius: 10px;
     margin-left:  12px;
     margin-right: 12px;
     margin-top: 10px;
@@ -67,9 +65,6 @@ li a {
     background-color: rgb(207, 44, 44);
     border-radius: 10px;
 }
-div.nhataitro nav{
-    background: transparent;
-}
 
 /* thong, hung, phuoc - body */
 
@@ -80,7 +75,7 @@ main {
 }
 
 main .nhataitro {
-    background-color: #dddd;
+    background-color: rgba(17, 17, 17, 0));
 }
 
 main .anhbody {
@@ -98,7 +93,7 @@ main .anhbody {
     background-color: #ffff;
 }
 .nhataitro ul{
-    background-color: #ffffff;
+    background:transparent;
     text-align: center;
     /* margin: 0px;
     padding: 0px; */
