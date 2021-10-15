@@ -24,7 +24,7 @@ header ul li {
     line-height: 40px;
     padding: 13px;
     display: inline-block;
-    font-family: 'Comfortaa', 'cursive', sans-serif;
+    font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 li a {
@@ -105,37 +105,22 @@ main .anhbody {
     text-decoration: none;
     color: #ffffff;
 }
-.chunen{
+.title{
     font-size: bold;
     color: #fff;
     text-align: center;
-    padding-top: px;
 }
 
 /* phuoc - body-left */
 
-.header{
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    background-color: #39e4c2;
-}
-
-main .tren{
-    width: 100%;
-    height: 130px;
-    background-color: #39e4c2;
-}
-main .giua{
-    width: 100%;
-    height: 650px;
-    
-}
 main .body-left{
     height: 650px;
     width: 20%;
-    background-color: #ccc;
     float: left;
+    background-color: rgba(17, 17, 17, 0.5);
+    border-radius: 20px;
+    height: 550px;
+    width: 400px;
 }
 main .body-left table,th,td{
     border-collapse: collapse;
@@ -147,96 +132,58 @@ main .body-left table{
     width: 100%;
 }
 main .body-left table .table_header{
-    color: black;
-    background-color: #B1C4C4;
+    color:rgb(255, 255, 255);
+    font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 20px;
 }
-main .body-left table .lich{
-    background-color: #C1E3E3
-}
+
 main .body-left th{
-    color:green;
-    background-color: #EBF0F0;
-    font-size: 18px;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif;
 }
-main .body-left tr{
-    border-bottom: 1px solid #EBF0F0;
-}
+
 main .body-left td{
-    padding:7px;
+    padding: 20px;
 }
 main .body-left table .left_doibong{
     text-align: right;
-   
 }
 main .body-left table .clmm{
-    background-color: #EBF0F0;
-    border-radius: 4px;
+    border-radius: 8px;
+    width: 50px;
     padding:2px 4px;
+    background-color: rgba(255, 255, 255, 0.2);
 }
-main .body-left table .left_doibong:hover{
-    color:red;
-}
-main .body-left table .left_doibong1:hover{
-    color:green;    
-}
+
 main .body-left table .left{
     margin: 10px 5px;
     border-radius: 5px;
     text-align: center;
-    color:green;
+    color:rgb(69, 250, 69);
     padding:2px;
-    
+    font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: bolder;
 }
 main .body-left table .left_doibong img{
-    width:15px;
-    height: 18px;
+    width: 30px;
+    height: 30px;
     float:right;
-    padding:0px 3px;
+    padding: 0px 10px;
 }
 main .body-left table .left_doibong1 img{
-    width:17px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     float:left;
-    padding:0px 3px;
+    padding:0px 10px;
 }
 main .body-left a{
     text-decoration:none;
-    color:black;
-}
-main .phai{
-    height: 650px;
-    width: 60%;
-    float: left;
-    background-repeat: no-repeat;
-    background-size: 100% 650px;
-}
-main .quang_cao{
-    height: 650px;
-    background-color: red;
-    width: 20%;
-    float: right;
-}
-
-main li{
-    display: inline-block;
-    font-size: 24px;
-    line-height: 40px;
-    padding: 24px;
-}
-main ul{
-    background-color: #ffffff;
-    text-align: center;
-}
-main a{
-    text-decoration: none;
-    color: #ffffff;
-}
-main .duoi{
-    width: 100%;
-    height: 70px;
-}
-.duoi h1{
-    text-align: center;
+    font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 /* ky - footer */
@@ -250,7 +197,7 @@ footer{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    font-family: 'Roboto', sans-serif;
+    font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 footer .container{
     display: flex;
