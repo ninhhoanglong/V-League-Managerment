@@ -3,7 +3,10 @@
     padding: 0px;
 }
 body{
-    background-image: url(/images/background.png);
+    background-image: url(/images/background/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 /* long - header */
 
@@ -32,16 +35,16 @@ li a {
 
 .logo-vpf{
     float: left;
-    width: 150px;
+    width: 200px;
 }
 
 .nav_2 {
     margin: 0;
     padding: 0;
-    background-color:rgb(23, 128, 23);
+    background-color:rgba(17, 17, 17, 0.733);
     float: right;
     border-radius:5px;
-    width: 90%;
+    width: 85%;
 }
 
 .nav_1 li{
@@ -74,8 +77,8 @@ main {
     width: 100%;
 }
 
-main .nhataitro {
-    background-color: rgba(17, 17, 17, 0));
+main .nhataitro{
+    background-color: rgba(17, 17, 17, 0);
 }
 
 main .anhbody {
@@ -90,7 +93,6 @@ main .anhbody {
     font-size: 24px;
     line-height: 40px;
     padding: 24px;
-    background-color: #ffff;
 }
 .nhataitro ul{
     background:transparent;
@@ -117,7 +119,7 @@ footer{
     width: 100%;
     height: auto;
     padding: 50px 100px;
-    background: #111;
+    background: rgba(17, 17, 17, 0.733);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
