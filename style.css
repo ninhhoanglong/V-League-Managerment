@@ -10,6 +10,10 @@ body{
 }
 /* long - header */
 
+header{
+    position: fixed;
+    width: 100%;
+}
 header ul {
     background-color: rgba(17, 17, 17, 0);
     text-align: center;
@@ -46,7 +50,10 @@ li a {
     border-radius:5px;
     width: 85%;
 }
-
+.nav_1{
+    background-color:rgba(17, 17, 17, 0.733);
+    width: ;
+}
 .nav_1 li{
     margin-left:  12px;
     margin-right: 12px;
