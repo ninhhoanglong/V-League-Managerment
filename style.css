@@ -39,20 +39,22 @@ li a {
 
 .logo-vpf{
     float: left;
-    width: 200px;
+    height: 153px;
+    background-color:rgba(17, 17, 17, 0.9);
+    width: 10%;
 }
 
 .nav_2 {
     margin: 0;
     padding: 0;
-    background-color:rgba(17, 17, 17, 0.733);
+    background-color:rgba(17, 17, 17, 0.9);
     float: right;
-    border-radius:5px;
-    width: 85%;
+    width: 90%;
 }
 .nav_1{
-    background-color:rgba(17, 17, 17, 0.733);
-    width: ;
+    background-color:rgba(17, 17, 17, 0.9);
+    width: 90%;
+    float: right;
 }
 .nav_1 li{
     margin-left:  12px;
@@ -106,7 +108,6 @@ main .anhbody {
     text-align: center;
     /* margin: 0px;
     padding: 0px; */
-
 }
 .nhataitro a{
     text-decoration: none;
@@ -119,12 +120,14 @@ main .anhbody {
 }
 
 /* phuoc - body-left */
-
+div.body-left{
+    margin: 100px 50px 0px 50px;
+}
 main .body-left{
     height: 650px;
     width: 20%;
     float: left;
-    background-color: rgba(17, 17, 17, 0.5);
+    background-color: rgba(17, 17, 17, 0.8);
     border-radius: 20px;
     height: 550px;
     width: 400px;
@@ -200,7 +203,8 @@ footer{
     width: 100%;
     height: auto;
     padding: 50px 100px;
-    background: rgba(17, 17, 17, 0.733);
+    margin-bottom: 0px;
+    background: rgba(17, 17, 17, 0.9);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
