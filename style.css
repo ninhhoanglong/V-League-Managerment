@@ -115,7 +115,7 @@ main .nhataitro{
 }
 div.body-right{
     float: left;
-    padding: 130px;
+    padding: 130px 130px 130px 250px;
     font-family: 'Montserrat', sans-serif;
 }
 .body-right h1{
@@ -131,10 +131,14 @@ div.body-right{
     font-size: 20px;
     margin-top: 30px;
 }
+div.transfer-news{
+    margin: 0px;
+    width: 100%;
+}
 
 /* phuoc - body-left */
 div.body-left{
-    margin: 0px 50px 100px 50px;
+    margin: 0px 50px 30px 50px;
 }
 main .body-left{
     height: 650px;
@@ -208,7 +212,22 @@ main .body-left a{
     text-transform: uppercase;
     font-weight: bold;
 }
-
+.video-clip{
+    float: left;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: rgba(17, 17, 17, 0.8);
+    border-radius: 30px;
+}
+.video-clip p{
+    margin-top: 0px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
 /* ky - footer */
 
 footer{
