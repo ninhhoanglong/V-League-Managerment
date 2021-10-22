@@ -113,6 +113,24 @@ main .nhataitro{
     color: #fff;
     text-align: center;
 }
+div.body-right{
+    float: left;
+    padding: 130px;
+    font-family: 'Montserrat', sans-serif;
+}
+.body-right h1{
+    font-size: 110px;
+    color: #fff;
+}
+.body-right h2{
+    font-size: 50px;
+    color: #fff;
+}
+.body-right h3{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 30px;
+}
 
 /* phuoc - body-left */
 div.body-left{
