@@ -23,7 +23,7 @@ header .nav-link:hover {
     background-color:red;
 }
 
-@media only screen and (min-width: 813px max-width:1021px){
+@media only screen and (min-width: 813px max-width: 1021px){
     .nav-item a {
     margin-left: 120px;
 }
@@ -36,7 +36,6 @@ header .nav-link:hover {
 }
 
 /* start modal login - Long */
-
 .modal1{
     position: fixed;
     display: none;
@@ -76,9 +75,9 @@ header .nav-link:hover {
 .modal-close:hover {
     background:rgba(0,0,0,0.4);
 }
-
-
 /* end modal login - Long */
+
+
 /* thong, hung, phuoc - body */
 
 /* thong - body right_bottom */
@@ -89,7 +88,7 @@ main {
 
 main .nhataitro{
     background-color: rgba(17, 17, 17, 0);
-    padding-top: 150px;
+    padding-top: 100px;
     width: 100%;
     height: 20%;
 }
@@ -139,16 +138,14 @@ div.transfer-news{
 
 /* phuoc - body-left */
 div.body-left{
-    margin: 0px 50px 30px 50px;
+    margin: 70px 50px 30px 50px;
 }
 main .body-left{
-    height: 650px;
-    width: 20%;
+    height: 550px;
     float: left;
     background-color: rgba(17, 17, 17, 0.8);
     border-radius: 20px;
-    height: 550px;
-    width: 400px;
+    width: 450px;
 }
 main .body-left table,th,td{
     border-collapse: collapse;
@@ -166,6 +163,7 @@ main .body-left table .table_header{
 }
 
 main .body-left th{
+    text-align: center;
     color: white;
     font-size: 15px;
     text-transform: uppercase;
@@ -180,7 +178,7 @@ main .body-left table .left_doibong{
 }
 main .body-left table .clmm{
     border-radius: 8px;
-    width: 50px;
+    width: 70px;
     padding:2px 4px;
     background-color: rgba(255, 255, 255, 0.2);
 }
@@ -195,13 +193,13 @@ main .body-left table .left{
     font-weight: bolder;
 }
 main .body-left table .left_doibong img{
-    width: 30px;
+    width: 55px;
     height: 30px;
     float:right;
     padding: 0px 10px;
 }
 main .body-left table .left_doibong1 img{
-    width: 30px;
+    width: 55px;
     height: 30px;
     float:left;
     padding:0px 10px;
@@ -229,8 +227,8 @@ main .body-left a{
     font-family: 'Montserrat', sans-serif;
     color: #fff;
 }
-/* ky - footer */
 
+/* ky - footer */
 footer{
     width: 100%;
     padding: 50px 100px;
