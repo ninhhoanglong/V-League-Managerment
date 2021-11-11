@@ -7,6 +7,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    height: 100%;
 }
 /* long - header */
 
@@ -23,7 +24,7 @@ header .nav-link:hover {
     background-color:red;
 }
 
-@media only screen and (min-width: 813px max-width: 1021px){
+@media only screen and (min-width: 813px){
     .nav-item a {
     margin-left: 120px;
 }
@@ -230,11 +231,11 @@ main .body-left a{
 
 /* ky - footer */
 footer{
-    width: 100%;
     padding: 50px 100px;
     background: rgba(17, 17, 17, 0.9);
+    font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif;
     display: flex;
-    font-family: Arial,sans-serif;
+    width:100%
 }
 .footer{
     display: flex;

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V-league Management Site</title>
+    <!-- link favicon -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- link font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+    <!-- link file js -->
+    <script src="../script.js"></script>
+    <!-- link file css -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./style-information.css">
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <div class="">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../images/logo_vpf/logo-vpf.png" alt="" width="70" height="auto">
+                    </a>
+                </div>
+                <a class="navbar-brand nav-link" href="../index.html">Trang Chủ</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav navbar-brand">
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="#">Trận đấu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Bảng xếp hạng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Số liệu Thống kê</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./information/">Thông tin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" onclick="openModal();">Đăng nhập</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="nhataitro">
+            <nav>
+                <ul>
+                    <li><a href="https://tnikingcoffee.vn"> <img  height="70" src="../images/logo_donors/TNI.png" alt="Cà phê Trung Nguyên"></a></li>
+                    <li><a href="https://www.bambooairways.com/"><img height="70" src="../images/logo_donors/Bamboo_airways.png" alt="Bamboo Airways"></a></li>
+                    <li><a href="https://www.pti.com.vn"><img height="70" src="../images/logo_donors/PTI.png" alt="Bảo hiểm PTI"></a></li>
+                    <li><a href="https://lsholdings.co.kr/"><img height="70" src="../images/logo_donors/LG_holdings.png" alt="LS Holdings"></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="information">
+            <h2 class="hinhthanh">
+                Lịch sử hình thành
+            </h2>
+            <p>Giải bóng đá vô địch quốc gia là sân chơi hạng cao nhất 
+                trong hệ thống thi đấu của bóng đá Việt Nam, do VFF tổ chức từ năm 1980, 
+                tính đến năm 2021 đã trải qua 38 mùa giải 
+                (năm 1988 không tổ chức, năm 1999 chỉ có giải Tập huấn mùa Xuân và năm 2021 bị hủy).
+            </p>
+            <p>
+                Giải đấu đã có những sự thay đổi 
+                từ tên gọi cho đến số lượng các đội tham dự cũng như thể thức thi đấu. 
+                Trong giai đoạn 1980-1996, giải liên tục phải thay đổi thể thức 
+                khi không thể thức nào tồn tại quá 2 năm. 
+                Tới năm 1996, thể thức thi đấu sân nhà-sân khách được chính thức áp dụng và ổn định 
+                tới hiện nay. Năm 1988, Tổng cục Thể dục Thể thao tạm ngừng tổ chức giải
+                để chấn chỉnh toàn bộ hệ thống thi đấu. 
+                Tới năm 1989, giải được tổ chức phân hạng lại với 32 đội tham gia 
+                chọn ra 18 đội mạnh nhất đá giải hạng A1. 
+                Tới năm 1989, hạng A1 còn 11 đội khi các đội xếp dưới 
+                kết hợp với 3 đội mạnh nhất hạng A2 hình thành hạng A2 mới. 
+                Tiếp đó, tên giải đổi thành Giải đội mạnh toàn quốc kể từ năm 1990 
+                và mang tên là Giải hạng Nhất quốc gia trong giai đoạn 1996-2000.
+            </p>
+            <p>
+                Từ mùa giải 2000–01 đến 2011, bóng đá Việt Nam chuyển sang cơ chế chuyên nghiệp, 
+                giải vô địch quốc gia chính thức mang tên V.League với sự tham dự của các cầu thủ nước ngoài.
+            </p>
+            <p>
+                Giải đã có 6 lần đổi tên, trung bình cứ 5 mùa giải lại đổi tên một lần. 
+                Giải đấu cũng đã 3 lần thay đổi về mặt thể thức thi đấu. 
+                Trong giai đoạn 1980-1995, 
+                các đội bóng tham dự giải được phân vào các bảng theo khu vực địa lý. 
+                Trong mỗi bảng các đội thi đấu vòng tròn 2 lượt tính điểm. 
+                Các đội nằm ở tốp đầu mỗi bảng sẽ tranh tài ở vòng chung kết để tranh chức vô địch, 
+                còn các đội nằm ở tốp cuối mỗi bảng sẽ thi đấu vòng chung kết ngược 
+                để chọn ra các đội xuống hạng.
+            </p>
+            <p>
+                Tại mùa giải năm 1996, 12 đội tham dự thi đấu vòng tròn 2 lượt. 
+                Sau khi kết thúc 2 lượt này, 
+                6 đội đầu bảng thi đấu vòng tròn một lượt để chọn đội vô địch, 
+                6 đội cuối bảng cũng thi đấu vòng tròn một lượt để chọn 2 đội xuống hạng. 
+                Từ năm 1997 đến năm 2013 (trừ giải Tập huấn Mùa Xuân năm 1999), 
+                các đội thi đấu vòng tròn 2 lượt tính điểm. 
+                Đội ghi được nhiều điểm nhất sẽ giành chức vô địch. 
+                Còn các đội đứng cuối bảng (1 hoặc 2 đội tùy năm) sẽ phải xuống hạng.
+            </p>
+            <p>
+                Giải lên chuyên nghiệp từ mùa 2000–01 
+                nhằm cho phép các câu lạc bộ tuyển trạch các cầu thủ nước ngoài 
+                và cầu thủ nhập tịch tham gia thi đấu. 
+                Cầu thủ gốc Việt được coi như cầu thủ nội. 
+                Với sự ra đời của VPF vào năm 2012, quyền tổ chức được chuyển từ VFF sang VPF).
+            </p>
+            <p>
+                Cùng với đó, từ năm 2012, tên giải đổi thành Giải bóng đá Ngoại hạng (Super League). 
+                Tuy nhiên, sau 5 vòng đấu, giải lấy lại tên là Giải VĐQG Việt Nam (V.League). 
+                Sang mùa giải 2013, VPF thay đổi tên viết tắt của giải thành V.League 1.
+            </p>
+            <p>
+                Biến động lớn nhất chính là số lượng các đội tham dự giải. 
+                Trước khi bóng đá Việt Nam chuyển sang cơ chế chuyên nghiệp, 
+                con số này liên tục thay đổi: lúc thì 16,17 đội, khi thì 18, 19, 20 đội, 
+                có thời điểm lên đến 27 đội (vào năm 1987) và 32 đội (vào năm 1989).
+            </p>
+            <p>
+                Khi V.League ra đời, con số này đã co lại nhưng cũng không ổn định. 
+                Trong 2 mùa giải chuyên nghiệp đầu tiên (2000–01 và 2001–02), 
+                số lượng các đội bóng tham dự V.League đều là 10 đội. 
+                Bước sang mùa giải 2003, 
+                số lượng các đội bóng tranh tài ở sân chơi V.League tăng thành 12 đội. 
+                Con số này giữ nguyên đến mùa giải 2005 
+                trước khi tăng lên thành 13 đội ở mùa giải 2006 
+                (lẽ ra đã là 14 đội nếu như Câu lạc bộ Ngân hàng Đông Á không mất quyền tham dự
+                do dính vào vụ hối lộ trọng tài ở giải hạng Nhất 2005). 
+                Một năm sau, lần đầu tiên trong lịch sử V.League chứng kiến cuộc tranh tài
+                của 14 đội bóng ở giải đấu hạng cao nhất của bóng đá Việt Nam.
+            </p>
+            <p>
+                Con số này giữ nguyên trong vòng 6 năm trước khi giảm xuống còn 12 đội 
+                ở V.League 2013 sau khi hàng loạt đội bóng bị giải thể hoặc chuyển giao. 
+                Theo dự kiến ban đầu, 
+                số lượng các đội bóng tham dự V.League 2014 quay trở lại con số 14, 
+                tuy nhiên Câu lạc bộ bóng đá KienLongBank Kiên Giang không đủ kinh phí 
+                để đăng ký tham dự giải nên con số này chỉ còn là 13.
+                Từ mùa giải 2015, số đội tham dự mỗi mùa giải là 14.
+            </p>
+            <h2>Thể thức thi đấu</h2>
+            <ul>
+                <li>Từ mùa giải 1980 đến 1995: các đội chia thành các bảng theo khu vực địa lý. 
+                    Trong mỗi bảng các đội thi đấu vòng tròn hai lượt tính điểm. 
+                    Các đội ở tốp đầu lọt vào vòng chung kết để tranh chức vô địch, 
+                    Các đội nằm ở tốp cuối mỗi bảng thi đấu vòng chung kết ngược để chọn đội xuống hạng.
+                </li>
+                <li>
+                    Mùa giải 1996, tất cả các đội (12 đội) thi đấu vòng tròn hai lượt. 
+                    Sau khi kết thúc đợt 1, 
+                    6 đội đầu bảng thi đấu vòng tròn một lượt để chọn đội vô địch, 
+                    6 đội cuối bảng cũng thi đấu vòng tròn một lượt để chọn 2 đội phải xuống hạng.
+                </li>
+                <li>
+                    Mùa giải 1997 đến 2019 (trừ giải tập huấn mùa xuân năm 1999): 
+                    các đội thi đấu vòng tròn hai lượt tính điểm. 
+                    Đội nhiều điểm nhất là đội vô địch. 
+                    Các đội cuối bảng (1 hoặc 2 đội tuỳ năm) phải xuống hạng.
+                </li>
+                <li>
+                    Mùa giải 2020, do đại dịch COVID-19 tại Việt Nam, 
+                    sau khi đấu vòng tròn 1 lượt xong, 
+                    8 đội xếp trên sẽ đá vòng tròn 1 lượt để tìm ra nhà vô địch, 
+                    6 đội còn lại sẽ đá vòng tròn 1 lượt để tìm ra 1 suất xuống hạng.
+                </li>
+                <li>
+                    Mùa giải 2021, sau khi đấu vòng tròn 1 lượt xong, 
+                    6 đội xếp trên sẽ đá vòng tròn một lượt để tìm ra nhà vô địch, 
+                    8 đội còn lại đá vòng tròn 1 lượt để tìm ra 
+                    1 suất xuống hạng và 1 suất vé vớt (play-off) 
+                    với đội đứng thứ 2 giải hạng Nhất.
+                </li>
+                </ul>
+            <h3>Cách thức tính điểm</h3>
+            <ul>
+                <li>Từ mùa giải 1996 trở về trước hệ thống điểm là 2-1-0 (tương ứng với mỗi trận thắng-hòa-thua). 
+                    Tuy nhiên có một số ngoại lệ:
+                    <ul>
+                        <li>
+                            Mùa giải 1986: Ở vòng 1, trận hoà thứ tư của mỗi đội không được tính điểm; 
+                            ở vòng 2, nếu 2 đội hoà nhau sau 90 phút thì đá luân lưu 11m để chọn đội thắng.
+                        </li>
+                        <li>
+                            Mùa giải 1987: Ở vòng 1, trận hoà thứ năm của mỗi đội không được tính điểm; ở vòng 2, 
+                            nếu 2 đội hoà nhau sau 90 phút thì đá luân lưu 11m để chọn đội thắng.
+                        </li>
+                        <li>
+                            Mùa giải 1993–94 và 1995: Nếu 2 đội hoà nhau sau 90 phút 
+                            thì đá luân lưu 11m để chọn đội thắng.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Từ mùa giải 1997 trở đi hệ thống điểm là 3-1-0.
+                </li>
+            </ul>
+            <h3>Cách thức xếp hạng</h3>
+            <p>
+                Xếp chung cuộc theo thứ tự sau:
+            </p>
+            <ul>
+                <li>Điểm số các đội (theo thứ tự từ cao đến thấp)</li>
+                <li>Nếu có 2 hoặc nhiều đội bằng điểm nhau thì xếp theo thứ tự qua các chỉ số phụ:</li>
+            </ul>
+            <ul>
+                <li>Kết quả đối đầu trực tiếp</li>
+                <li>Hiệu số bàn thắng bàn thua</li>
+                <li>Tổng số bàn thắng</li>
+            </ul>
+            <p>
+                Tuy nhiên, trong một số năm, 
+                tiêu chí hiệu số bàn thắng bàn thua và tổng số bàn thắng 
+                được ưu tiên hơn kết quả đối đầu.
+            </p>
+            <h3>Quy định số lượng cầu thủ ngoại và nhập tịch</h3>
+            <p>
+                Giải bắt đầu cho phép sử dụng cầu thủ ngoại từ năm 2000. 
+                Hiện tại, các câu lạc bộ được phép đăng ký 03 cầu thủ ngoại, 
+                01 cầu thủ nhập tịch còn cầu thủ gốc Việt Nam được coi như cầu thủ nội. 
+                Đối với các đội dự giải châu lục được phép có thêm 01 cầu thủ ngoại quốc tịch châu Á. 
+                Trường hợp câu lạc bộ bị loại ở giải cấp châu lục trong giai đoạn 1 
+                thì số lượng cầu thủ ngoại và nhập tịch ở giai đoạn 2 
+                được áp dụng như các câu lạc bộ không tham gia giải châu lục.
+            </p>
+            <p class="tail">Nguồn: Wikipedia</p>
+        </div>
+            <div class="video-clip">
+                <p>Videos & Clips</p>
+                <table>
+                    <tr>
+                        <td><iframe width="293" height="200" src="https://www.youtube.com/embed/wKtHGb2oKKw" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                        <td><iframe width="293" height="200" src="https://www.youtube.com/embed/gb2icGkkRUo" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                        <td><iframe width="293" height="200" src="https://www.youtube.com/embed/z5V6cJZUqJA" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                        <td><iframe width="293" height="200" src="https://www.youtube.com/embed/nsfoZdAxi3A" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                        <td><iframe width="293" height="200" src="https://www.youtube.com/embed/M5lF6sWH_J0" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>                    </tr>
+                </table>
+            </div>
+    <footer>
+        <div class="footer">
+            <div class="noi-dung gioithieu">
+                <h2>V-LEAGUE</h2>
+                <p>Chúng tôi chính là một trong những đơn vị đầu tiên thành lập nên giải đấu V-League cấp ao làng này. Chúng tôi đã đặt nền móng cho bóng đá Việt Nam để một ngày nào đó bóng đá Việt Nam sẽ vươn tầm thế giới. Mục tiêu của chúng tôi là phát triển các cầu thủ để đem lại Word Cup về cho nước nhà</p>
+                <ul class="mxh">
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="noi-dung them">
+                <h2>Đường Dẫn</h2>
+                <ul>
+                    <li><a href="#">Trang Chủ</a></li>
+                    <li><a href="#">Dịch Vụ</a></li>
+                    <li><a href="#">Điều Kiện Chính Sách</a></li>
+                </ul>
+            </div>
+            <div class="noi-dung lienhe">
+                <h2>Thông Tin Liên Hệ</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-map-marker"></i></span>
+                        <span>Ngách 90 - Ngõ 1194 - Đường Láng<br/>Quận Đống Đa, Thành Phố Hà Nội</span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-phone"></i></span>
+                        <p>
+                            +84 964 497 977<br/>
+                            +84 987 654 321
+                        </p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope"></i></span>
+                        <p>canhky0212@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    </main>
+    <!-- Start modal login -->
+    <div class="modal1">
+        <div class="modal-container">
+            <div class="modal-head">
+                <h1>Đăng nhập</h1>
+            </div>
+            <div class="modal-close" onclick="closeModal();">
+                <i class="bi bi-x-square-fill"></i>
+            </div>
+            <div class="form">
+                <form name="myform" action="">
+                    <table>
+                        <tr height="40px">
+                            <td>Username: </td>
+                            <td><input type="text" name="username" style="width:80%"></td>
+                        </tr>
+                        <!-- <tr height="40px">
+                            <td>Email:</td>
+                            <td><input type="email" name="email"></td>
+                        </tr> -->
+                        <tr height="40px">
+                            <td>Password:</td>
+                            <td><input type="password" name="password" style="width:80%"></td>
+                        </tr>
+                        <!-- <tr height="40px">
+                            <td>Confirm Password:</td>
+                            <td><input type="password" name="password1"></td>
+                        </tr> -->
+                        <tr height="80px">
+                            <td colspan="2"><input type="button" value="Done" name="submit" onclick="displayResult();"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End modal login -->
+</body>
+</html>
