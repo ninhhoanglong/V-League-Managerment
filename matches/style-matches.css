@@ -1,0 +1,86 @@
+.matches{
+    font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    background-color: rgba(0, 0, 0, 0.438);
+    margin: 90px 90px 20px;
+    padding: 20px 50px;
+    border-radius: 30px;
+    color: #fff;
+}
+h2.title{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: -50px;
+    border-bottom: 1px solid red;
+}
+.dau{
+    width: 100%;
+    height:200px;
+}
+.form{
+    margin-top: -50px;
+}
+.matches ul{
+    text-align: center;
+    float: left;
+    margin-top: 70px;
+}
+
+.matches li{
+    font-size: 25px;
+    line-height:  40px;
+    padding: 20px;
+    display: inline-block;
+}
+.matches a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+.matches li:hover{
+    background-color: rgb(250, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+}
+.matches p{
+    color: #fff;
+    padding-top: 12px;
+    font-size: 20px;
+}
+select{
+    margin: 10px 10px 0px 0px;
+
+}
+
+.tg{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    height: 45px;
+}
+p.tg{
+    color: rgb(69, 250, 69);
+    font-weight: bold;
+}
+.thoigian{
+    width: 70px ;
+    height: 40px; 
+    text-align: center;
+}
+
+.option{
+    height: 30px; 
+    width: 200px; 
+}
+.click{
+    width: 100px; 
+    margin: 10px 10px 0px 0px;
+    height: 30px;
+}
+.lich{
+    margin: 20px 0px 10px 130px ;
+    color: #fff; 
+    margin-bottom: 30px ;
+}
+.logo_club{
+    height: 50px;
+    margin: 0px 20px;
+}
