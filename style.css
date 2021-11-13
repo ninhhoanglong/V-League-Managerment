@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 body{
     background-image: url(./images/background/background.png);
@@ -120,20 +121,18 @@ main {
 main .nhataitro{
     background-color: rgba(17, 17, 17, 0);
     padding-top: 100px;
+    padding-bottom: 30px;
     width: 100%;
-    height: 20%;
 }
 
 .nhataitro li{
     display: inline-block;
-    line-height: 40px;
-    padding: 24px;
+    float: left;
+    width: 25%;
 }
 .nhataitro ul{
     background:transparent;
     text-align: center;
-    /* margin: 0px;
-    padding: 0px; */
 }
 .nhataitro a{
     text-decoration: none;
