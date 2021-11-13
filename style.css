@@ -28,13 +28,13 @@ header .nav-link:hover {
 @media only screen and (min-width: 813px){
     .nav-item a {
     margin-left: 120px;
-}
+    }
 }
 
 @media only screen and (min-width: 1400px ){
     .nav-item a {
     margin-left: 120px;
-}
+    }
 }
 
 /* start modal login - Long */
@@ -128,6 +128,7 @@ main .nhataitro{
 .nhataitro li{
     float: left;
     width: 25%;
+    display: inline;
 }
 .nhataitro ul{
     background:transparent;
@@ -136,6 +137,14 @@ main .nhataitro{
 .nhataitro a{
     text-decoration: none;
     color: #ffffff;
+}
+@media only screen and (max-width: 600px ){
+    .nhataitro li{
+        display: inline;
+        float: left;
+        width: 100%;
+        padding-bottom: 10px;
+    }
 }
 .title{
     font-size: bold;
