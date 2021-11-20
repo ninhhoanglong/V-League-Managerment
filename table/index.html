@@ -38,19 +38,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav navbar-brand">
                         <li class="nav-item ">
-                            <a class="nav-link active" aria-current="page" href="#">Trận đấu</a>
+                            <a class="nav-link" aria-current="page" href="../matches/">Trận đấu</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="../table/">Bảng xếp hạng</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="../statistic/">Số liệu Thống kê</a>
+                            <a class="nav-link" href="../statistic/">Số liệu Thống kê</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="../information/">Thông tin</a>
+                            <a class="nav-link" href="../information/">Thông tin</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" onclick="openModal();">Đăng nhập</a>
+                            <a class="nav-link" onclick="openModal();">Đăng nhập</a>
                         </li>
                     </ul>
                 </div>
@@ -361,11 +361,11 @@
                     <table>
                         <tr height="40px">
                             <td>Username: </td>
-                            <td><input type="text" name="username" style="width:80%"></td>
+                            <td><input type="text" name="username" style="width:80%" placeholder="Username"></td>
                         </tr>
                         <tr height="40px">
                             <td>Password:</td>
-                            <td><input type="password" name="password" style="width:80%"></td>
+                            <td><input type="password" name="password" style="width:80%" placeholder="Password"></td>
                         </tr>
                         <tr height="80px">
                             <td colspan="2"><a id="login"><input type="button" value="Đăng nhập" name="submit" onclick="displayResult();"></a></td>
@@ -392,19 +392,23 @@
                     <table>
                         <tr height="40px">
                             <td>Username: </td>
-                            <td><input type="text" name="username" style="width:80%"></td>
+                            <td><input type="text" name="username" style="width:80%" placeholder="Yêu cầu:7-10 ký tự" ></td>
                         </tr>
                         <tr height="40px">
                             <td>Email:</td>
-                            <td><input type="email" name="email" style="width:80%"></td>
+                            <td><input type="email" name="email" style="width:80%" placeholder="Yêu cầu: vidu@vidu.com"></td>
+                        </tr>
+                        <tr height="40px">
+                            <td>Phone Number:</td>
+                            <td><input type="text" name="numberphone" style="width:80%" placeholder="Yêu cầu: 10 chữ số"></td>
                         </tr>
                         <tr height="40px">
                             <td>Password:</td>
-                            <td><input type="password" name="password" style="width:80%"></td>
+                            <td><input type="password" name="password" style="width:80%" placeholder="Yêu cầu: 7-10 ký tự a-z A-Z 0-9"></td>
                         </tr>
                         <tr height="40px">
                             <td>Confirm Password:</td>
-                            <td><input type="password" name="password1" style="width:80%"></td>
+                            <td><input type="password" name="password1" style="width:80%" placeholder="Confirm Password"></td>
                         </tr>
                         <tr height="80px">
                             <td colspan="2"><a id="dki"><input type="button" value="Đăng Kí" name="submit" onclick="displayResult1();"></a></td>

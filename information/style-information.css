@@ -1,18 +1,21 @@
-.information{
-    font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif;
-    background-color: rgba(0, 0, 0, 0.438);
-    margin: 90px 90px 20px;
-    padding: 20px 50px;
-    border-radius: 30px;
-    color: #fff;
+.navbar-brand {
+  color: rgba(255, 255, 255, 0.75) !important;
 }
-.information h2{
-    border-bottom: 1px solid red;
+.information {
+  font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.438);
+  margin: 90px 90px 20px;
+  padding: 20px 50px;
+  border-radius: 30px;
+  color: #fff;
 }
-.information h3{
-    font-size: 20px;
-    font-weight: bold;
+.information h2 {
+  border-bottom: 1px solid red;
 }
-p.tail{
-    text-align: right;
+.information h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+p.tail {
+  text-align: right;
 }

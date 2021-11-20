@@ -1,20 +1,25 @@
-.statistic{
-    background-color: rgba(0, 0, 0, 0.438);
-    font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif;
-    margin: 90px 90px 20px;
-    padding: 0px 50px;
-    border-radius: 30px;
+.navbar-brand {
+  color: rgba(255, 255, 255, 0.75) !important;
 }
-.statistic table{
-    width: 100%;      
-    border-collapse: collapse;
-    color: #fff;
+
+.statistic {
+  background-color: rgba(0, 0, 0, 0.438);
+  font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+  margin: 90px 90px 20px;
+  padding: 0px 50px;
+  border-radius: 30px;
 }
-th,td{
-    padding: 10px;
+.statistic table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
 }
-tr.title{
-    text-align: left;
-    font-size: 30px;
-    border-bottom: 1px solid red;
+th,
+td {
+  padding: 10px;
+}
+tr.title {
+  text-align: left;
+  font-size: 30px;
+  border-bottom: 1px solid red;
 }
