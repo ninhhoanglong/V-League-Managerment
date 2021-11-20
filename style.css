@@ -39,6 +39,13 @@ header .nav-link:hover {
   background-color: red;
 }
 
+@media only screen and (max-width: 990px) {
+  header ul li {
+    width: 100%;
+    text-align: none;
+  }
+}
+
 /* start modal login - Long */
 .modal1 {
   position: fixed;
