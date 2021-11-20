@@ -14,6 +14,3 @@ Danh sách sinh viên tham gia :
 - Hoàng Vy Thông
 - Vũ Trường Phước
 - Trần Việt Hưng
-
-Đây là dòng Long test Git
-Hưng sửa dòng này
