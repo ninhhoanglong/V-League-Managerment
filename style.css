@@ -269,6 +269,11 @@ main .body-left a {
   background-color: rgba(17, 17, 17, 0.8);
   border-radius: 30px;
 }
+.video{
+  display: flex; 
+  width: 100%; 
+  text-align: center;
+}
 .video-clip p {
   margin-top: 0px;
   padding-bottom: 20px;
