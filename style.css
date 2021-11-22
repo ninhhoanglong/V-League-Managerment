@@ -186,80 +186,71 @@ div.transfer-news {
 }
 
 /* phuoc - body-left */
-div.body-left {
-  float: left;
-  width: 35%;
-}
-main .body-left {
-  height: 550px;
-  float: left;
-  background-color: rgba(17, 17, 17, 0.8);
-  border-radius: 20px;
-  width: 450px;
-}
-main .body-left table,
-th,
-td {
-  border-collapse: collapse;
-}
-main .body-left table {
-  height: 200px;
-  width: 100%;
-}
-main .body-left table .table_header {
-  color: rgb(255, 255, 255);
-  font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+.body-left{
+  padding: 20px 0 14px 0;
+  float:left;
+  background-color: rgba(17, 17, 17, 0.9) ;
+  font-family: 'Roboto-Regular';
+  color: #fff;
   font-size: 20px;
-}
-
-main .body-left th {
+  border-radius: 7%;
   text-align: center;
-  color: white;
-  font-size: 15px;
-  text-transform: uppercase;
-  font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
 }
-
-main .body-left td {
-  padding: 20px;
+.left_ger{
+  padding-top: 10px;
 }
-main .body-left table .left_doibong {
-  text-align: right;
+.left-header h2, h3{
+  padding: 10px;
 }
-main .body-left table .clmm {
-  border-radius: 8px;
-  width: 70px;
-  padding: 2px 4px;
-  background-color: rgba(255, 255, 255, 0.2);
+.left_match{
+  display: flex;
 }
-
-main .body-left table .left {
-  margin: 10px 5px;
-  border-radius: 5px;
-  text-align: center;
-  color: rgb(69, 250, 69);
-  padding: 2px;
-  font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
-  font-weight: bolder;
+.left_match_le,
+.left_match_ri{
+  flex: 50%;
+  display: flex;
 }
-main .body-left table .left_doibong img {
-  width: 55px;
+.left_match_le_w{
+  flex: 60%;
+}
+.left_match_le_i{
+  flex: 40%;
+}
+.left1{
+  text-align:right;
+}
+.left2{
+  text-align: left;
+}
+.left_match_ce{
+  flex: 58px;
   height: 30px;
-  float: right;
-  padding: 0px 10px;
+  background-color: rgba(255, 255, 255, 0.2);;
+  color: green;
 }
-main .body-left table .left_doibong1 img {
-  width: 55px;
-  height: 30px;
-  float: left;
-  padding: 0px 10px;
+figure>img{
+  vertical-align: middle; 
 }
-main .body-left a {
-  text-decoration: none;
-  font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  font-weight: bold;
+@media only screen and (min-width: 1024px){
+   .body-left{
+  width: 35%;
+  margin: 80px 0 0 40px;
+  }
+}
+@media only screen and (max-width: 1024px){
+  .body-left{
+      width: 55%;
+      margin: 80px;
+  }
+  .body-right {
+      width: 100%;
+  }
+  .body-right h1{
+      font-size: 80px;
+  }
+  .body-right h2{
+      font-size: 50px;
+  }
 }
 .video-clip {
   float: left;
