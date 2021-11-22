@@ -2,53 +2,77 @@
   color: rgba(255, 255, 255, 0.75) !important;
 }
 
-.table {
-  font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+.container{
+  width: 80%;
+  font-family: Tahoma, Geneva, sans-serif;
+  margin: 60px auto;
   background-color: rgba(0, 0, 0, 0.438);
-  margin: 90px 90px 20px;
-  padding: 20px 50px;
-  border-radius: 30px;
+  padding: 30px;
+  border-radius: 50px;
 }
-.table-responsive {
+.header1 h3{
+  margin: 10px 0;
+  color : #fff;
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 1px solid red;
+}
+p{
+  margin: 10px 0;
+  color: #fff;
+  font-size: 21px;
+  text-align: center;
+}
+.images{
+  text-align: center;
+  width: 100%;
+  margin: 50px 0;
+  vertical-align: middle;
+}
+.table-responsive{
   overflow-y: hidden;
   max-width: 100%;
+}
+.table-responsive table{
+  width: 70%;
   height: 800px;
   margin: 0 auto;
-  background-color: rgba(112, 116, 110, 0.9);
+  background-color: rgba(112, 116, 110, 0.9); 
+
 }
-.table-responsive tr,
-th,
-td {
+.table-responsive table,tr,th,td{
   border-collapse: collapse;
-  font-size: 15px;
+  font-size: 15px;  
+
 }
-.table-responsive thead {
+.table-responsive thead{
   border: 1px solid #919162;
   background-color: rgba(255, 14, 14, 0.9);
+
 }
-.table-responsive tr > th {
+.table-responsive tr>th{
   padding: 15px;
   border: 1px solid #919162;
   color: black;
 }
-.table-responsive tr > td {
-  color: #fff;
+.table-responsive tr>td{
+  color: #fff;         
   padding-left: 15px;
   border: 1px solid #919162;
 }
-.hd ul {
+.hd ul{
   margin: 50px auto;
   list-style-type: none;
-  text-align: center;
-  width: 70%;
+  text-align:center;
+  width: 70%;    
 }
-.hd ul > li {
+.hd ul>li{
   display: inline;
   margin: 14px;
   color: #fff;
 }
-.table span {
-  margin: 2px;
-  font-weight: bold;
+span{
+  margin:2px;
+  font-weight:bold;
   color: red;
 }
