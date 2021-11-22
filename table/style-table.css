@@ -17,7 +17,7 @@
   text-align: center;
   border-bottom: 1px solid red;
 }
-p{
+.container p{
   margin: 10px 0;
   color: #fff;
   font-size: 21px;
@@ -71,7 +71,7 @@ p{
   margin: 14px;
   color: #fff;
 }
-span{
+.container span{
   margin:2px;
   font-weight:bold;
   color: red;

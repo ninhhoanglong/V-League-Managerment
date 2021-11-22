@@ -123,7 +123,6 @@ header .nav-link:hover {
 
 /* thong - body right_bottom */
 main {
-  height: 800px;
   width: 100%;
 }
 
@@ -152,49 +151,30 @@ main .nhataitro {
     height: 35px;
   }
 }
-.body-left-right {
-  width: 100%;
-  margin: 80px 40px 650px 40px;
-}
-.title {
-  font-size: bold;
-  color: #fff;
-  text-align: center;
-}
-div.body-right {
-  padding: 100px;
-  float: left;
-  width: 65%;
-  font-family: "Montserrat", sans-serif;
-}
-.body-right h1 {
-  font-size: 110px;
-  color: #fff;
-}
-.body-right h2 {
-  font-size: 50px;
-  color: #fff;
-}
-.body-right h3 {
-  color: #fff;
-  font-size: 20px;
-  margin-top: 30px;
-}
-div.transfer-news {
-  margin: 0px;
-  width: 100%;
-}
 
-/* phuoc - body-left */
+/* body-left-right */
+
+.body-left-right{
+  width: 100%;
+}
 .body-left{
-  padding: 20px 0 14px 0;
-  float:left;
-  background-color: rgba(17, 17, 17, 0.9) ;
-  font-family: 'Roboto-Regular';
+  background-color: rgba(0, 0, 0, 0.438);
   color: #fff;
-  font-size: 20px;
-  border-radius: 7%;
+  width: 35%;
+  float: left;
   text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 50px;
+}
+.body-right{
+  padding: 0%;
+  margin-left: 10%;
+  margin-top: 7%;
+  font-family: "Montserrat", sans-serif;
+  width: 55%;
+  float: left;
+  padding-top: 100px;
 }
 .left_ger{
   padding-top: 10px;
@@ -205,8 +185,7 @@ div.transfer-news {
 .left_match{
   display: flex;
 }
-.left_match_le,
-.left_match_ri{
+.left_match_le, .left_match_ri{
   flex: 50%;
   display: flex;
 }
@@ -231,27 +210,47 @@ div.transfer-news {
 figure>img{
   vertical-align: middle; 
 }
-@media only screen and (min-width: 1024px){
-   .body-left{
-  width: 35%;
-  margin: 80px 0 0 40px;
-  }
+.title {
+  font-size: bold;
+  color: #fff;
+  text-align: center;
+}
+.body-right h1 {
+  font-size: 110px;
+  color: #fff;
+}
+.body-right h2 {
+  font-size: 50px;
+  color: #fff;
+}
+.body-right h3 {
+  color: #fff;
+  font-size: 20px;
 }
 @media only screen and (max-width: 1024px){
   .body-left{
-      width: 55%;
-      margin: 80px;
+      padding: 0%;
+      margin: 10% 10% 2% 10%;
+      background-color: rgba(0, 0, 0, 0.438);
+      color: #fff;
+      width: 80%;
+      float: left;
+      text-align: center;
   }
-  .body-right {
-      width: 100%;
+  .body-right{
+      padding: 0%;
+      margin: 0% 20% 2% 20%;
+      font-family: "Montserrat", sans-serif;
+      width: 60%;
+      float: left;
+      text-align: center;
   }
-  .body-right h1{
+  .body-right h1 {
       font-size: 80px;
-  }
-  .body-right h2{
-      font-size: 50px;
+      color: #fff;
   }
 }
+
 .video-clip {
   float: left;
   width: 100%;
@@ -273,16 +272,7 @@ figure>img{
   font-family: "Montserrat", sans-serif;
   color: #fff;
 }
-@media only screen and (max-width: 800px) {
-  div.body-right {
-    width: 100%;
-    font-family: "Montserrat", sans-serif;
-  }
-  div.body-left {
-    float: left;
-    width: 35%;
-  }
-}
+
 /* ky - footer */
 .footer{
   padding-top: 2%;
@@ -295,8 +285,9 @@ h2{
   color: #fff;
 }
 .gioithieu{
+  padding: 0%;
   margin-left: 10%;
-  width: 40%;
+  width: 20%;
 }
 .gioithieu p , .info li p{
   color: #999;
@@ -323,8 +314,9 @@ h2{
   font-size: 160%;
 }
 .them{
- margin-left: 10%;
- width: 20%;
+  padding: 0%;
+  margin-left: 10%;
+  width: 20%;
 }
 .them ul li{
   list-style: none;
@@ -336,8 +328,10 @@ h2{
   display: inline-block;
 }
 .lienhe{
+  padding: 0%;
+  width: 20%;
   margin-left: 10%;
-  width: 40%;
+  margin-right: 10%;
 }
 .info li{
   list-style: none;
@@ -346,9 +340,4 @@ h2{
   color: #fff;
   font-size: 100%;
   margin-right: 5%;
-}
-@media only screen and (max-width: 1024px ){
-  .footer{
-      display: block;
-  }
 }
