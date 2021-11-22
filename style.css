@@ -293,39 +293,30 @@ main .body-left a {
   }
 }
 /* ky - footer */
-footer {
-  padding: 50px 100px;
+.footer{
+  padding-top: 2%;
   background: rgba(17, 17, 17, 0.9);
-  font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+  width:100%;
   display: flex;
-  width: 100%;
 }
-.footer {
-  display: flex;
-  flex-wrap: wrap;
-}
-h2 {
-  position: relative;
+h2{
   color: #fff;
-  margin-bottom: 15px;
 }
-.noi-dung {
-  margin-right: 50px;
-}
-.gioithieu {
+.gioithieu{
+  margin-left: 10%;
   width: 40%;
 }
-.gioithieu p {
+.gioithieu p , .info li p{
   color: #999;
 }
-.mxh {
-  margin-top: 20px;
+.mxh{
   display: flex;
 }
 .mxh li {
   list-style: none;
 }
-.mxh li a {
+.mxh li a{
   text-decoration: none;
   width: 40px;
   height: 40px;
@@ -336,35 +327,37 @@ h2 {
   margin-right: 10px;
   border-radius: 10px;
 }
-.mxh li a .fa {
+.mxh li a .fa{
   color: #fff;
-  font-size: 20px;
+  font-size: 160%;
 }
-.them {
-  position: relative;
-  width: 25%;
+.them{
+ margin-left: 10%;
+ width: 20%;
 }
-.them ul li {
+.them ul li{
   list-style: none;
 }
-.them ul li a {
+.them ul li a{
   text-decoration: none;
   color: #999;
-  margin-bottom: 10px;
+  margin-bottom: 5%;
   display: inline-block;
 }
-.info li {
-  display: flex;
-  margin-bottom: 15px;
+.lienhe{
+  margin-left: 10%;
+  width: 40%;
 }
-.info li span:nth-child(1) {
+.info li{
+  list-style: none;
+}
+.info li p1{
   color: #fff;
-  font-size: 20px;
-  margin-right: 10px;
+  font-size: 100%;
+  margin-right: 5%;
 }
-.info li span {
-  color: #999;
-}
-.info li p {
-  color: #999;
+@media only screen and (max-width: 1024px ){
+  .footer{
+      display: block;
+  }
 }
