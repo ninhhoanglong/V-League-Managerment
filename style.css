@@ -254,15 +254,17 @@ figure>img{
 .video-clip {
   float: left;
   width: 100%;
-  padding: 15px;
-  margin-bottom: 30px;
+  padding: 2%;
+  margin-bottom: 3%;
   background-color: rgba(17, 17, 17, 0.8);
   border-radius: 30px;
 }
 .video{
-  display: flex; 
-  width: 100%; 
+  display: flex;
   text-align: center;
+}
+.vd{
+  width: 25%;
 }
 .video-clip p {
   margin-top: 0px;
