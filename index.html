@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,8 +17,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- link font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
     <!-- link file js -->
     <script src="script.js"></script>
@@ -25,63 +26,72 @@
     <link rel="stylesheet" href="style.css">
     <!-- link bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container-fluid">
-                <div class="">
-                    <a class="navbar-brand" href="./index.html">
-                        <img src="./images/logo_vpf/logo-vpf.png" alt="" width="70" height="auto">
-                    </a>
+    <div class="wrapper">
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <div class="">
+                        <a class="navbar-brand" href="./index.html">
+                            <img src="./images/logo_vpf/logo-vpf.png" alt="" width="70" height="auto">
+                        </a>
+                    </div>
+                    <a class="navbar-brand nav-link" href="./index.html">Trang Chủ</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ">
+                                <a class="nav-link" aria-current="page" href="./matches/">Trận đấu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./table/">Bảng xếp hạng</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./statistic/">Số liệu Thống kê</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./information/">Thông tin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" onclick="openModal();">Đăng nhập</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <a class="navbar-brand nav-link" href="./index.html">Trang Chủ</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item ">
-                            <a class="nav-link" aria-current="page" href="./matches/">Trận đấu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./table/">Bảng xếp hạng</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./statistic/">Số liệu Thống kê</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./information/">Thông tin</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" onclick="openModal();">Đăng nhập</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <main>
+            </nav>
+        </div>
         <div class="nhataitro">
             <nav>
                 <ul>
-                    <li><a href="https://tnikingcoffee.vn"> <img  height="70" src="./images/logo_donors/TNI.png" alt="Cà phê Trung Nguyên"></a></li>
-                    <li><a href="https://www.bambooairways.com/"><img height="70" src="./images/logo_donors/Bamboo_airways.png" alt="Bamboo Airways"></a></li>
-                    <li><a href="https://www.pti.com.vn"><img height="70" src="./images/logo_donors/PTI.png" alt="Bảo hiểm PTI"></a></li>
-                    <li><a href="https://lsholdings.co.kr/"><img height="70" src="./images/logo_donors/LG_holdings.png" alt="LS Holdings"></a></li>
+                    <li><a href="https://tnikingcoffee.vn"> <img height="70" src="./images/logo_donors/TNI.png"
+                                alt="Cà phê Trung Nguyên"></a></li>
+                    <li><a href="https://www.bambooairways.com/"><img height="70"
+                                src="./images/logo_donors/Bamboo_airways.png" alt="Bamboo Airways"></a></li>
+                    <li><a href="https://www.pti.com.vn"><img height="70" src="./images/logo_donors/PTI.png"
+                                alt="Bảo hiểm PTI"></a></li>
+                    <li><a href="https://lsholdings.co.kr/"><img height="70" src="./images/logo_donors/LG_holdings.png"
+                                alt="LS Holdings"></a></li>
                 </ul>
             </nav>
         </div>
         <div class="body-left-right">
             <div class="body-left">
                 <div class="left-header">
-                <h2>Lịch Thi Đấu V-league</h2>
-                <h3>V-league Thứ 7 - 16/10</h3>
+                    <h2>Lịch Thi Đấu V-league</h2>
+                    <h3>V-league Thứ 7 - 16/10</h3>
                 </div>
                 <div class="left_ger">
-                    
+
                     <div class="left_match">
                         <div class="left_match_le">
                             <figcaption class="left_match_le_w left1">
@@ -92,8 +102,8 @@
                             </figure>
                         </div>
                         <div class="left_match_ce">
-                            <span >1 - 2</span>
-                        
+                            <span>1 - 2</span>
+
                         </div>
                         <div class="left_match_ri">
                             <figure class="left_match_le_i">
@@ -106,19 +116,19 @@
                     </div>
                 </div>
                 <div class="left_ger">
-                
+
                     <div class="left_match">
                         <div class="left_match_le">
                             <figcaption class="left_match_le_w left1">
                                 <span class="color-danger">Hải Phòng</span>
                             </figcaption>
-                            <figure class = "left_match_le_i">
+                            <figure class="left_match_le_i">
                                 <img src="./images/logo_club/Hai-Phong.png" width="40px">
                             </figure>
                         </div>
                         <div class="left_match_ce">
                             <span class="">3 - 0</span>
-                            
+
                         </div>
                         <div class="left_match_ri">
                             <figure class="left_match_le_i">
@@ -131,22 +141,22 @@
                     </div>
                 </div>
                 <div class="left_ger">
-                    
+
                     <div class="left_match">
                         <div class="left_match_le">
                             <figcaption class="left_match_le_w left1">
                                 <span class="color-danger">Viettel</span>
                             </figcaption>
                             <figure class="left_match_le_i">
-                                <img src="./images/logo_club/Viettel.png" width="40px"> 
+                                <img src="./images/logo_club/Viettel.png" width="40px">
                             </figure>
                         </div>
-                        
-                            <div class="left_match_ce">
-                                <span class="">2 - 0</span>
-                                
-                            </div>
-                        
+
+                        <div class="left_match_ce">
+                            <span class="">2 - 0</span>
+
+                        </div>
+
                         <div class="left_match_ri">
                             <figure class="left_match_le_i ">
                                 <img src="./images/logo_club/Binh_Dinh.png" width="40px">
@@ -161,23 +171,23 @@
                     <h3>V-league CN - 17/10</h3>
                 </div>
                 <div class="left_ger">
-                    
+
 
                     <div class="left_match">
                         <div class="left_match_le">
                             <figcaption class="left_match_le_w left1">
                                 <span class="color-danger">SHBĐN</span>
                             </figcaption>
-                            <figure class = "left_match_le_i">
+                            <figure class="left_match_le_i">
                                 <img src="./images/logo_club/SHB_Da_Nang.png" width="40px">
                             </figure>
                         </div>
-                        
-                            <div class="left_match_ce">
-                                <span class="">20:00</span>
-                                
-                           
-                            </div>
+
+                        <div class="left_match_ce">
+                            <span class="">20:00</span>
+
+
+                        </div>
                         <div class="left_match_ri">
                             <figure class="left_match_le_i">
                                 <img src="./images/logo_club/Binh_Duong.png" width="40px">
@@ -189,7 +199,7 @@
                     </div>
                 </div>
                 <div class="left_ger">
-                    
+
                     <div class="left_match">
                         <div class="left_match_le">
                             <figcaption class="left_match_le_w left1">
@@ -199,13 +209,13 @@
                                 <img src="./images/logo_club/HCM.png" width="40px">
                             </figure>
                         </div>
-                            <div class="left_match_ce">
-                                <span class="">20:30</span>
-                                
-                            </div>
+                        <div class="left_match_ce">
+                            <span class="">20:30</span>
+
+                        </div>
                         <div class="left_match_ri">
                             <figure class="left_match_le_i ">
-                                <img src="./images/logo_club/Thanh_Hoa.png" height ="35px">
+                                <img src="./images/logo_club/Thanh_Hoa.png" height="35px">
                             </figure>
                             <figcaption class="left_match_le_w left2">
                                 <span class="color-danger">Thanh Hóa</span>
@@ -214,7 +224,7 @@
                     </div>
                 </div>
                 <div class="left_ger">
-                    
+
 
                     <div class="left_match">
                         <div class="left_match_le">
@@ -225,10 +235,10 @@
                                 <img src="./images/logo_club/Than_Quang_Ninh.png" width="40px">
                             </figure>
                         </div>
-                            <div class="left_match_ce">
-                                <span class="">21:30</span>
-                                
-                            </div>
+                        <div class="left_match_ce">
+                            <span class="">21:30</span>
+
+                        </div>
                         <div class="left_match_ri">
                             <figure class="left_match_le_i">
                                 <img src="./images/logo_club/Sai_Gon.png" width="40px">
@@ -250,55 +260,68 @@
         </div>
         <div class="video-clip">
             <p>Videos & Clips</p>
-                <div class="video">
-                    <div class="vd" > <iframe height="200" src="https://www.youtube.com/embed/wKtHGb2oKKw" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                    <div class="vd" > <iframe height="200" src="https://www.youtube.com/embed/gb2icGkkRUo" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                    <div class="vd" > <iframe height="200" src="https://www.youtube.com/embed/z5V6cJZUqJA" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                    <div class="vd" > <iframe height="200" src="https://www.youtube.com/embed/z5V6cJZUqJA" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                </div>
-        </div>
-        <footer>
-            <div class="footer">
-                <div class="gioithieu">
-                    <h2>V-LEAGUE</h2>
-                    <p>Chúng tôi chính là một trong những đơn vị đầu tiên thành lập nên giải đấu V-League. Chúng tôi đã đặt nền móng cho bóng đá Việt Nam để một ngày nào đó bóng đá Việt Nam sẽ vươn tầm thế giới. Mục tiêu của chúng tôi là phát triển các cầu thủ để đem lại World Cup về cho nước nhà.</p>
-                    <ul class="mxh">
-                        <li><a href="https://www.facebook.com/canhrkyf0809"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC1gsBswueC8g1Ddx3wYUTNA"><i class="fa fa-youtube"></i></a></li>
-                    </ul>
-                </div>
-                <div class="them">
-                    <h2>Đường Dẫn</h2>
-                    <ul>
-                        <li><a href="#">Trang Chủ</a></li>
-                        <li><a href="#">Dịch Vụ</a></li>
-                        <li><a href="#">Chính Sách</a></li>
-                    </ul>
-                </div>
-                <div class="lienhe">
-                    <h2>Thông Tin Liên Hệ</h2>
-                    <ul class="info">
-                        <li>
-                            <p1><i class="fa fa-map-marker"></i></p1>
-                            <p>Ngách 90 - Ngõ 1194 - Đường Láng<br/>
-                                Quận Đống Đa, Thành Phố Hà Nội</p>
-                        </li>
-                        <li>
-                            <p1><i class="fa fa-phone"></i></p1>
-                            <p>+84 964 497 977<br/>
-                                +84 987 654 321 </p>
-                        </li>
-                        <li>
-                            <p1><i class="fa fa-envelope"></i></p1>
-                            <p>canhky0212@gmail.com</p>
-                        </li>
-                    </ul>
-                </div>
+            <div class="video">
+                <div class="vd"> <iframe height="200" src="https://www.youtube.com/embed/wKtHGb2oKKw"
+                        title="YouTube video player" frameborder="1"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="vd"> <iframe height="200" src="https://www.youtube.com/embed/gb2icGkkRUo"
+                        title="YouTube video player" frameborder="1"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="vd"> <iframe height="200" src="https://www.youtube.com/embed/z5V6cJZUqJA"
+                        title="YouTube video player" frameborder="1"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="vd"> <iframe height="200" src="https://www.youtube.com/embed/z5V6cJZUqJA"
+                        title="YouTube video player" frameborder="1"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
             </div>
-        </footer>
-    </main>
+        </div>
+        <div class="footer">
+            <div class="gioithieu">
+                <h2>V-LEAGUE</h2>
+                <p>Chúng tôi chính là một trong những đơn vị đầu tiên thành lập nên giải đấu V-League. Chúng tôi đã
+                    đặt nền móng cho bóng đá Việt Nam để một ngày nào đó bóng đá Việt Nam sẽ vươn tầm thế giới. Mục
+                    tiêu của chúng tôi là phát triển các cầu thủ để đem lại World Cup về cho nước nhà.</p>
+                <ul class="mxh">
+                    <li><a href="https://www.facebook.com/canhrkyf0809"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UC1gsBswueC8g1Ddx3wYUTNA"><i class="fa fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="them">
+                <h2>Đường Dẫn</h2>
+                <ul>
+                    <li><a href="#">Trang Chủ</a></li>
+                    <li><a href="#">Dịch Vụ</a></li>
+                    <li><a href="#">Chính Sách</a></li>
+                </ul>
+            </div>
+            <div class="lienhe">
+                <h2>Thông Tin Liên Hệ</h2>
+                <ul class="info">
+                    <li>
+                        <p1><i class="fa fa-map-marker"></i></p1>
+                        <p>Ngách 90 - Ngõ 1194 - Đường Láng<br />
+                            Quận Đống Đa, Thành Phố Hà Nội</p>
+                    </li>
+                    <li>
+                        <p1><i class="fa fa-phone"></i></p1>
+                        <p>+84 964 497 977<br />
+                            +84 987 654 321 </p>
+                    </li>
+                    <li>
+                        <p1><i class="fa fa-envelope"></i></p1>
+                        <p>canhky0212@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <!-- Start modal login -->
     <div class="modal1">
         <div class="modal-container">
@@ -320,7 +343,8 @@
                             <td><input type="password" name="password" style="width:80%" placeholder="Password"></td>
                         </tr>
                         <tr height="80px">
-                            <td colspan="2"><a id="login"><input type="button" value="Đăng nhập" name="submit" onclick="displayResult();"></a></td>
+                            <td colspan="2"><a id="login"><input type="button" value="Đăng nhập" name="submit"
+                                        onclick="displayResult();"></a></td>
                         </tr>
                     </table>
                 </form>
@@ -344,26 +368,32 @@
                     <table>
                         <tr height="40px">
                             <td>Username: </td>
-                            <td><input type="text" name="username" style="width:80%" placeholder="Yêu cầu:7-10 ký tự" ></td>
+                            <td><input type="text" name="username" style="width:80%" placeholder="Yêu cầu:7-10 ký tự">
+                            </td>
                         </tr>
                         <tr height="40px">
                             <td>Email:</td>
-                            <td><input type="email" name="email" style="width:80%" placeholder="Yêu cầu: vidu@vidu.com"></td>
+                            <td><input type="email" name="email" style="width:80%" placeholder="Yêu cầu: vidu@vidu.com">
+                            </td>
                         </tr>
                         <tr height="40px">
                             <td>Phone Number:</td>
-                            <td><input type="text" name="numberphone" style="width:80%" placeholder="Yêu cầu: 10 chữ số"></td>
+                            <td><input type="text" name="numberphone" style="width:80%"
+                                    placeholder="Yêu cầu: 10 chữ số"></td>
                         </tr>
                         <tr height="40px">
                             <td>Password:</td>
-                            <td><input type="password" name="password" style="width:80%" placeholder="Yêu cầu: 7-10 ký tự a-z A-Z 0-9"></td>
+                            <td><input type="password" name="password" style="width:80%"
+                                    placeholder="Yêu cầu: 7-10 ký tự a-z A-Z 0-9"></td>
                         </tr>
                         <tr height="40px">
                             <td>Confirm Password:</td>
-                            <td><input type="password" name="password1" style="width:80%" placeholder="Confirm Password"></td>
+                            <td><input type="password" name="password1" style="width:80%"
+                                    placeholder="Confirm Password"></td>
                         </tr>
                         <tr height="80px">
-                            <td colspan="2"><a id="dki"><input type="button" value="Đăng Kí" name="submit" onclick="displayResult1();"></a></td>
+                            <td colspan="2"><a id="dki"><input type="button" value="Đăng Kí" name="submit"
+                                        onclick="displayResult1();"></a></td>
                         </tr>
                     </table>
                 </form>
@@ -372,4 +402,5 @@
     </div>
     <!-- End modal login -->
 </body>
+
 </html>

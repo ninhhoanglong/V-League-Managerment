@@ -18,80 +18,80 @@ function opendki() {
 }
 
 function check(username, password) {
-    if(username == '') {
+    if (username == '') {
         alert("Bạn phải điền username!");
         document.myform.username.focus();
-    } else if(password == '') {
+    } else if (password == '') {
         alert("Bạn phải điền password!");
         document.myform.password.focus();
     } else {
         alert("Bạn đã đăng nhập thành công!");
         var a = document.getElementById("login");
-        a.href="";
+        a.href = "";
     }
 }
 
-function check1 (username, email, numberphone, password, password1) {
-    if(username == '') {
+function check1(username, email, numberphone, password, password1) {
+    if (username == '') {
         alert("Bạn phải điền username!");
         document.myform1.username.focus();
-    } 
-    else if(username.length < 7 || username.length > 10) {
+    }
+    else if (username.length < 7 || username.length > 10) {
         alert("Username phải từ 7 đến 10 ký tự!");
         document.myform1.username.focus();
-    } 
-    else if(!checkUsername(username)){
+    }
+    else if (!checkUsername(username)) {
         alert("Username không có ký tự đặc biệt!");
         document.myform1.username.focus();
     }
-    else if(email == '') {
+    else if (email == '') {
         alert("Bạn phải điền email!");
         document.myform1.email.focus();
-    } 
-    else if(!checkEmail(email)) {
+    }
+    else if (!checkEmail(email)) {
         alert("Yêu cầu nhập đúng định dạng email!");
         document.myform1.email.focus();
     }
-    else if(numberphone == '') {
+    else if (numberphone == '') {
         alert("Bạn phải điền number phone!");
         document.myform1.numberphone.focus();
-    } 
-    else if(numberphone.length != 10) {
+    }
+    else if (numberphone.length != 10) {
         alert("Phonenumber phải có 10 chữ số!");
         document.myform1.numberphone.focus();
-    } 
-    else if(!checkNumberphone(numberphone)) {
+    }
+    else if (!checkNumberphone(numberphone)) {
         alert("Phonenumber phải là số!");
         document.myform1.numberphone.focus();
     }
-    else if(password == '') {
+    else if (password == '') {
         alert("Bạn phải điền password!");
         document.myform1.password.focus();
-    } 
-    else if(password.length < 7 || password.length > 10) {
+    }
+    else if (password.length < 7 || password.length > 10) {
         alert("Password phải từ 7 đến 10 ký tự!");
         document.myform1.password.focus();
-    } 
-    else if(!checkPassword(password)) {
+    }
+    else if (!checkPassword(password)) {
         alert("Mật khẩu không hợp lệ!");
         document.myform1.password.focus();
     }
-    else if(password == username) {
+    else if (password == username) {
         alert("Mật khẩu và Username không được trùng nhau!");
         document.myform1.password.focus();
     }
-    else if(password1 == '') {
+    else if (password1 == '') {
         alert("Bạn phải điền lại password!");
         document.myform1.password1.focus();
-    } 
-    else if(password != password1) {
+    }
+    else if (password != password1) {
         alert("Mật khẩu không trùng nhau!");
         document.myform1.password1.focus();
-    } 
+    }
     else {
         alert("Bạn đã đăng ký thành công!");
         var a = document.getElementById("dki");
-        a.href="";
+        a.href = "";
     }
 }
 
@@ -112,7 +112,7 @@ function displayResult1() {
     document.myform1.password.focus();
     var password1 = document.myform1.password1.value;
     document.myform1.password1.focus();
-    check1(username, email, numberphone,password, password1);
+    check1(username, email, numberphone, password, password1);
 }
 
 function checkUsername(username) {

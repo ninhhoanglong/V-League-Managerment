@@ -6,11 +6,12 @@
   background-color: rgba(0, 0, 0, 0.438);
   width: 90%;
   padding: 3%;
-  margin: 5% 10% 10% 5%;
+  margin: 10% auto;
   border-radius: 30px;
   color: #fff;
 }
 .information h2 {
+  margin: 0%;
   border-bottom: 1px solid red;
 }
 .information h3 {

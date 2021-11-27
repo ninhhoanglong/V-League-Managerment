@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Tiêu đề -->
     <title>V-league Management Site</title>
@@ -13,8 +14,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- link font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
     <!-- link file js -->
     <script src="../script.js"></script>
@@ -23,51 +24,60 @@
     <link rel="stylesheet" href="./style-matches.css">
     <!-- link bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container-fluid">
-                <div class="">
-                    <a class="navbar-brand" href="../index.html">
-                        <img src="../images/logo_vpf/logo-vpf.png" alt="" width="70" height="auto">
-                    </a>
+    <div class="wrapper">
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <div class="">
+                        <a class="navbar-brand" href="../index.html">
+                            <img src="../images/logo_vpf/logo-vpf.png" alt="" width="70" height="auto">
+                        </a>
+                    </div>
+                    <a class="navbar-brand nav-link" href="../index.html">Trang Chủ</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav navbar-brand">
+                            <li class="nav-item ">
+                                <a class="nav-link active" aria-current="page" href="#">Trận đấu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../table/">Bảng xếp hạng</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../statistic/">Số liệu Thống kê</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../information/">Thông tin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" onclick="openModal();">Đăng nhập</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <a class="navbar-brand nav-link" href="../index.html">Trang Chủ</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav navbar-brand">
-                        <li class="nav-item ">
-                            <a class="nav-link active" aria-current="page" href="#">Trận đấu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../table/">Bảng xếp hạng</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../statistic/">Số liệu Thống kê</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../information/">Thông tin</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" onclick="openModal();">Đăng nhập</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <main>
+            </nav>
+        </div>
         <div class="nhataitro">
             <ul>
-                <li><a href="https://tnikingcoffee.vn"> <img class="ntt" height="70" src="../images/logo_donors/TNI.png" alt="Cà phê Trung Nguyên"></a></li>
-                <li><a href="https://www.bambooairways.com/"><img class="ntt" height="70" src="../images/logo_donors/Bamboo_airways.png" alt="Bamboo Airways"></a></li>
-                <li><a href="https://www.pti.com.vn"><img class="ntt" height="70" src="../images/logo_donors/PTI.png" alt="Bảo hiểm PTI"></a></li>
-                <li><a href="https://lsholdings.co.kr/"><img class="ntt" height="70" src="../images/logo_donors/LG_holdings.png" alt="LS Holdings"></a></li>
+                <li><a href="https://tnikingcoffee.vn"> <img height="70" src="../images/logo_donors/TNI.png"
+                            alt="Cà phê Trung Nguyên"></a></li>
+                <li><a href="https://www.bambooairways.com/"><img height="70"
+                            src="../images/logo_donors/Bamboo_airways.png" alt="Bamboo Airways"></a></li>
+                <li><a href="https://www.pti.com.vn"><img height="70" src="../images/logo_donors/PTI.png"
+                            alt="Bảo hiểm PTI"></a></li>
+                <li><a href="https://lsholdings.co.kr/"><img height="70"
+                            src="../images/logo_donors/LG_holdings.png" alt="LS Holdings"></a></li>
             </ul>
         </div>
         <div class="matches">
@@ -81,13 +91,13 @@
                     </ul>
                 </div>
                 <div>
-                    <form  class="form" action="index.html"> 
-                        <select name="" id="" class = "option">
+                    <form class="form" action="index.html">
+                        <select name="" id="" class="option">
                             <option value="">Giải vô địch quốc gia</option>
                             <option value="">Giải hạng nhất quốc gia</option>
                             <option value="">Giải hạng nhì quốc gia</option>
                         </select>
-    
+
                         <select name="" id="" class="option">
                             <optgroup label="Giải vô địch quốc gia">
                                 <option value="">Hà Nội</option>
@@ -106,140 +116,22 @@
                                 <option value="">Lào Cai</option>
                             </optgroup>
                         </select>
-                        <input type="reset" value="Reset" class="click" >
-                        <input type="submit" value="Tìm kiếm" class="click"> 
+                        <input type="reset" value="Reset" class="click">
+                        <input type="submit" value="Tìm kiếm" class="click">
                     </form>
                 </div>
             </div>
             <div class="main">
-                <p class="lich">Thứ 7, ngày 13, tháng 11, năm 2021</p>  
-                    <div class="trandau">
-                        <div class="clb">
-                            <div class="tenclb">
-                                <p>Hà Nội FC</p>
-                            </div>
-                            <div class="logoclb">
-                                <a title="CLB Hà Nội" href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_H%C3%A0_N%E1%BB%99i_(2016)"><img src="/images/logo_club/Ha_Noi.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="tgian">
-                            <p>15:30</p>
-                        </div>
-                        <div class="clb">
-                            <div class="logoclb">
-                                <a title="CLB Hoàng Anh Gia Lai" href="https://en.wikipedia.org/wiki/Hoang_Anh_Gia_Lai_FC"><img src="/images/logo_club/HAGL.png" alt=""></a>
-                            </div>
-                            <div class="tenclb">
-                                <p>HAGL</p>
-                            </div>
-                        </div>
-
-                        <div class="svd">
-                            <div class="anhsvd">
-                                <a title="SVĐ Hàng Đẫy" href="https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_H%C3%A0ng_%C4%90%E1%BA%ABy"><img height="25px" src="/images/stadium/stadium.jpeg" alt=""></a>
-                            </div>
-                            <div class="tensvd">
-                                <p>SVĐ Hàng Đẫy</p>
-                            </div>
-                        </div>
-                    </div> 
-                    <div class="trandau">
-                        <div class="clb">
-                            <div class="tenclb">
-                                <p>SLNA</p>
-                            </div>
-                            <div class="logoclb">
-                                <a title="CLB Sông Lam Nghệ An" href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_S%C3%B4ng_Lam_Ngh%E1%BB%87_An"><img src="/images/logo_club/SLNA.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="tgian">
-                            <p>16:30</p>
-                        </div>
-                        <div class="clb">
-                            <div class="logoclb">
-                                <a title="CLB Nam Định" href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_Nam_%C4%90%E1%BB%8Bnh"><img src="/images/logo_club/Nam_Dinh.png" alt=""></a>
-                            </div>
-                            <div class="tenclb">
-                                <p>Nam Định</p>
-                            </div>
-                        </div>
-                        <div class="svd">
-                            <div class="anhsvd">
-                                <a title="SVĐ Vinh" href="https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Vinh"><img height="25px" src="/images/stadium/stadium.jpeg" alt=""></a>
-                            </div>
-                            <div class="tensvd">
-                                <p>SVĐ Vinh</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="trandau">
-                        <div class="clb">
-                            <div class="tenclb">
-                                <p>Hải Phòng</p>
-                            </div>
-                            <div class="logoclb">
-                                <a title="CLB Hải Phòng" href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_H%E1%BA%A3i_Ph%C3%B2ng"><img src="/images/logo_club/Hai-Phong.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="tgian">
-                            <p>17:30</p>
-                        </div>
-                        <div class="clb">
-                            <div class="logoclb">
-                                <a title="CLB Viettel" href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_Viettel"><img src="/images/logo_club/Viettel.png" alt=""></a>
-                            </div>
-                            <div class="tenclb">
-                                <p>Viettel</p>
-                            </div>
-                        </div>
-
-                        <div class="svd">
-                            <div class="anhsvd">
-                                <a title="SVĐ Lạch Tray" href="https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_L%E1%BA%A1ch_Tray"><img height="25px" src="/images/stadium/stadium.jpeg" alt=""></a>
-                            </div>
-                            <div class="tensvd">
-                                <p>SVĐ Lạch Tray</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="trandau">
-                        <div class="clb">
-                            <div class="tenclb">
-                                <p>Bình Định</p>
-                            </div>
-                            <div class="logoclb">
-                                <a title="CLB Bình Định" href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_Topenland_B%C3%ACnh_%C4%90%E1%BB%8Bnh"><img src="/images/logo_club/Binh_Dinh.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="tgian">
-                            <p>17:30</p>
-                        </div>
-                        <div class="clb">
-                            <div class="logoclb">
-                                <a title="CLB Thanh Hóa" href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_%C4%90%C3%B4ng_%C3%81_Thanh_H%C3%B3a"><img src="/images/logo_club/Thanh_Hoa.png" alt=""></a>
-                            </div>
-                            <div class="tenclb">
-                                <p>Thanh Hóa</p>
-                            </div>
-                        </div>
-
-                        <div class="svd">
-                            <div class="anhsvd">
-                                <a title="SVĐ Quy Nhơn" href="https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Quy_Nh%C6%A1n"><img height="25px" src="/images/stadium/stadium.jpeg" alt=""></a>
-                            </div>
-                            <div class="tensvd">
-                                <p>SVĐ Quy Nhơn</p>
-                            </div>
-                        </div>
-                    </div>
-                <p class="lich">Chủ nhật, ngày 14, tháng 11, năm 2021</p> 
+                <p class="lich">Thứ 7, ngày 13, tháng 11, năm 2021</p>
                 <div class="trandau">
                     <div class="clb">
                         <div class="tenclb">
-                            <p>Hà Tĩnh</p>
+                            <p>Hà Nội FC</p>
                         </div>
                         <div class="logoclb">
-                            <a title="CLB Hà Tĩnh" href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_H%E1%BB%93ng_L%C4%A9nh_H%C3%A0_T%C4%A9nh"><img src="/images/logo_club/Ha_Tinh.png" alt=""></a>
+                            <a title="CLB Hà Nội"
+                                href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_H%C3%A0_N%E1%BB%99i_(2016)"><img
+                                    src="/images/logo_club/Ha_Noi.png" alt=""></a>
                         </div>
                     </div>
                     <div class="tgian">
@@ -247,7 +139,152 @@
                     </div>
                     <div class="clb">
                         <div class="logoclb">
-                            <a title="CLB Than Quảng Ninh" href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_Than_Qu%E1%BA%A3ng_Ninh"><img src="/images/logo_club/Than_Quang_Ninh.png" alt=""></a>
+                            <a title="CLB Hoàng Anh Gia Lai"
+                                href="https://en.wikipedia.org/wiki/Hoang_Anh_Gia_Lai_FC"><img
+                                    src="/images/logo_club/HAGL.png" alt=""></a>
+                        </div>
+                        <div class="tenclb">
+                            <p>HAGL</p>
+                        </div>
+                    </div>
+
+                    <div class="svd">
+                        <div class="anhsvd">
+                            <a title="SVĐ Hàng Đẫy"
+                                href="https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_H%C3%A0ng_%C4%90%E1%BA%ABy"><img
+                                    height="25px" src="/images/stadium/stadium.jpeg" alt=""></a>
+                        </div>
+                        <div class="tensvd">
+                            <p>SVĐ Hàng Đẫy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="trandau">
+                    <div class="clb">
+                        <div class="tenclb">
+                            <p>SLNA</p>
+                        </div>
+                        <div class="logoclb">
+                            <a title="CLB Sông Lam Nghệ An"
+                                href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_S%C3%B4ng_Lam_Ngh%E1%BB%87_An"><img
+                                    src="/images/logo_club/SLNA.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="tgian">
+                        <p>16:30</p>
+                    </div>
+                    <div class="clb">
+                        <div class="logoclb">
+                            <a title="CLB Nam Định"
+                                href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_Nam_%C4%90%E1%BB%8Bnh"><img
+                                    src="/images/logo_club/Nam_Dinh.png" alt=""></a>
+                        </div>
+                        <div class="tenclb">
+                            <p>Nam Định</p>
+                        </div>
+                    </div>
+                    <div class="svd">
+                        <div class="anhsvd">
+                            <a title="SVĐ Vinh"
+                                href="https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Vinh"><img
+                                    height="25px" src="/images/stadium/stadium.jpeg" alt=""></a>
+                        </div>
+                        <div class="tensvd">
+                            <p>SVĐ Vinh</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="trandau">
+                    <div class="clb">
+                        <div class="tenclb">
+                            <p>Hải Phòng</p>
+                        </div>
+                        <div class="logoclb">
+                            <a title="CLB Hải Phòng"
+                                href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_H%E1%BA%A3i_Ph%C3%B2ng"><img
+                                    src="/images/logo_club/Hai-Phong.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="tgian">
+                        <p>17:30</p>
+                    </div>
+                    <div class="clb">
+                        <div class="logoclb">
+                            <a title="CLB Viettel"
+                                href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_Viettel"><img
+                                    src="/images/logo_club/Viettel.png" alt=""></a>
+                        </div>
+                        <div class="tenclb">
+                            <p>Viettel</p>
+                        </div>
+                    </div>
+
+                    <div class="svd">
+                        <div class="anhsvd">
+                            <a title="SVĐ Lạch Tray"
+                                href="https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_L%E1%BA%A1ch_Tray"><img
+                                    height="25px" src="/images/stadium/stadium.jpeg" alt=""></a>
+                        </div>
+                        <div class="tensvd">
+                            <p>SVĐ Lạch Tray</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="trandau">
+                    <div class="clb">
+                        <div class="tenclb">
+                            <p>Bình Định</p>
+                        </div>
+                        <div class="logoclb">
+                            <a title="CLB Bình Định"
+                                href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_Topenland_B%C3%ACnh_%C4%90%E1%BB%8Bnh"><img
+                                    src="/images/logo_club/Binh_Dinh.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="tgian">
+                        <p>17:30</p>
+                    </div>
+                    <div class="clb">
+                        <div class="logoclb">
+                            <a title="CLB Thanh Hóa"
+                                href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_%C4%90%C3%B4ng_%C3%81_Thanh_H%C3%B3a"><img
+                                    src="/images/logo_club/Thanh_Hoa.png" alt=""></a>
+                        </div>
+                        <div class="tenclb">
+                            <p>Thanh Hóa</p>
+                        </div>
+                    </div>
+
+                    <div class="svd">
+                        <div class="anhsvd">
+                            <a title="SVĐ Quy Nhơn" href="https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Quy_Nh%C6%A1n"><img
+                                    height="25px" src="/images/stadium/stadium.jpeg" alt=""></a>
+                        </div>
+                        <div class="tensvd">
+                            <p>SVĐ Quy Nhơn</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="lich">Chủ nhật, ngày 14, tháng 11, năm 2021</p>
+                <div class="trandau">
+                    <div class="clb">
+                        <div class="tenclb">
+                            <p>Hà Tĩnh</p>
+                        </div>
+                        <div class="logoclb">
+                            <a title="CLB Hà Tĩnh"
+                                href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_H%E1%BB%93ng_L%C4%A9nh_H%C3%A0_T%C4%A9nh"><img
+                                    src="/images/logo_club/Ha_Tinh.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="tgian">
+                        <p>15:30</p>
+                    </div>
+                    <div class="clb">
+                        <div class="logoclb">
+                            <a title="CLB Than Quảng Ninh"
+                                href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_Than_Qu%E1%BA%A3ng_Ninh"><img
+                                    src="/images/logo_club/Than_Quang_Ninh.png" alt=""></a>
                         </div>
                         <div class="tenclb">
                             <p>Than Quảng Ninh</p>
@@ -256,7 +293,9 @@
 
                     <div class="svd">
                         <div class="anhsvd">
-                            <a title="SVĐ Hồng Lĩnh" href="https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_H%C3%A0_T%C4%A9nh"><img height="25px" src="/images/stadium/stadium.jpeg" alt=""></a>
+                            <a title="SVĐ Hồng Lĩnh"
+                                href="https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_H%C3%A0_T%C4%A9nh"><img
+                                    height="25px" src="/images/stadium/stadium.jpeg" alt=""></a>
                         </div>
                         <div class="tensvd">
                             <p>SVĐ Hồng Lĩnh</p>
@@ -270,7 +309,9 @@
                             <p>Sài Gòn</p>
                         </div>
                         <div class="logoclb">
-                            <a title="CLB Sài Gòn" href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_S%C3%A0i_G%C3%B2n"><img src="/images/logo_club/Sai_Gon.png" alt=""></a>
+                            <a title="CLB Sài Gòn"
+                                href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_S%C3%A0i_G%C3%B2n"><img
+                                    src="/images/logo_club/Sai_Gon.png" alt=""></a>
                         </div>
                     </div>
                     <div class="tgian">
@@ -278,7 +319,9 @@
                     </div>
                     <div class="clb">
                         <div class="logoclb">
-                            <a title="CLB SHB Đà Nẵng" href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_SHB_%C4%90%C3%A0_N%E1%BA%B5ng"><img src="/images/logo_club/SHB_Da_Nang.png" alt=""></a>
+                            <a title="CLB SHB Đà Nẵng"
+                                href="https://vi.wikipedia.org/wiki/C%C3%A2u_l%E1%BA%A1c_b%E1%BB%99_b%C3%B3ng_%C4%91%C3%A1_SHB_%C4%90%C3%A0_N%E1%BA%B5ng"><img
+                                    src="/images/logo_club/SHB_Da_Nang.png" alt=""></a>
                         </div>
                         <div class="tenclb">
                             <p>Đà Nẵng</p>
@@ -287,7 +330,9 @@
 
                     <div class="svd">
                         <div class="anhsvd">
-                            <a title="SVĐ Thống Nhất" href="https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Th%E1%BB%91ng_Nh%E1%BA%A5t"><img height="25px" src="/images/stadium/stadium.jpeg" alt=""></a>
+                            <a title="SVĐ Thống Nhất"
+                                href="https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Th%E1%BB%91ng_Nh%E1%BA%A5t"><img
+                                    height="25px" src="/images/stadium/stadium.jpeg" alt=""></a>
                         </div>
                         <div class="tensvd">
                             <p>SVĐ Thống Nhất</p>
@@ -295,58 +340,71 @@
                     </div>
                 </div>
             </div>
-        </div>       
+        </div>
         <div class="video-clip">
             <p>Videos & Clips</p>
-                <div class="video">
-                    <div class="vd" > <iframe height="200" src="https://www.youtube.com/embed/wKtHGb2oKKw" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                    <div class="vd" > <iframe height="200" src="https://www.youtube.com/embed/gb2icGkkRUo" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                    <div class="vd" > <iframe height="200" src="https://www.youtube.com/embed/z5V6cJZUqJA" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                    <div class="vd" > <iframe height="200" src="https://www.youtube.com/embed/z5V6cJZUqJA" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                </div>
-        </div>
-        <footer>
-            <div class="footer">
-                <div class="gioithieu">
-                    <h2>V-LEAGUE</h2>
-                    <p>Chúng tôi chính là một trong những đơn vị đầu tiên thành lập nên giải đấu V-League. Chúng tôi đã đặt nền móng cho bóng đá Việt Nam để một ngày nào đó bóng đá Việt Nam sẽ vươn tầm thế giới. Mục tiêu của chúng tôi là phát triển các cầu thủ để đem lại World Cup về cho nước nhà.</p>
-                    <ul class="mxh">
-                        <li><a href="https://www.facebook.com/canhrkyf0809"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC1gsBswueC8g1Ddx3wYUTNA"><i class="fa fa-youtube"></i></a></li>
-                    </ul>
-                </div>
-                <div class="them">
-                    <h2>Đường Dẫn</h2>
-                    <ul>
-                        <li><a href="#">Trang Chủ</a></li>
-                        <li><a href="#">Dịch Vụ</a></li>
-                        <li><a href="#">Chính Sách</a></li>
-                    </ul>
-                </div>
-                <div class="lienhe">
-                    <h2>Thông Tin Liên Hệ</h2>
-                    <ul class="info">
-                        <li>
-                            <p1><i class="fa fa-map-marker"></i></p1>
-                            <p>Ngách 90 - Ngõ 1194 - Đường Láng<br/>
-                                Quận Đống Đa, Thành Phố Hà Nội</p>
-                        </li>
-                        <li>
-                            <p1><i class="fa fa-phone"></i></p1>
-                            <p>+84 964 497 977<br/>
-                                +84 987 654 321 </p>
-                        </li>
-                        <li>
-                            <p1><i class="fa fa-envelope"></i></p1>
-                            <p>canhky0212@gmail.com</p>
-                        </li>
-                    </ul>
-                </div>
+            <div class="video">
+                <div class="vd"> <iframe height="200" src="https://www.youtube.com/embed/wKtHGb2oKKw"
+                        title="YouTube video player" frameborder="1"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="vd"> <iframe height="200" src="https://www.youtube.com/embed/gb2icGkkRUo"
+                        title="YouTube video player" frameborder="1"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="vd"> <iframe height="200" src="https://www.youtube.com/embed/z5V6cJZUqJA"
+                        title="YouTube video player" frameborder="1"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="vd"> <iframe height="200" src="https://www.youtube.com/embed/z5V6cJZUqJA"
+                        title="YouTube video player" frameborder="1"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
             </div>
-        </footer>
-    </main>
+        </div>
+        <div class="footer">
+            <div class="gioithieu">
+                <h2>V-LEAGUE</h2>
+                <p>Chúng tôi chính là một trong những đơn vị đầu tiên thành lập nên giải đấu V-League. Chúng tôi đã đặt
+                    nền móng cho bóng đá Việt Nam để một ngày nào đó bóng đá Việt Nam sẽ vươn tầm thế giới. Mục tiêu của
+                    chúng tôi là phát triển các cầu thủ để đem lại World Cup về cho nước nhà.</p>
+                <ul class="mxh">
+                    <li><a href="https://www.facebook.com/canhrkyf0809"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UC1gsBswueC8g1Ddx3wYUTNA"><i
+                                class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="them">
+                <h2>Đường Dẫn</h2>
+                <ul>
+                    <li><a href="#">Trang Chủ</a></li>
+                    <li><a href="#">Dịch Vụ</a></li>
+                    <li><a href="#">Chính Sách</a></li>
+                </ul>
+            </div>
+            <div class="lienhe">
+                <h2>Thông Tin Liên Hệ</h2>
+                <ul class="info">
+                    <li>
+                        <p1><i class="fa fa-map-marker"></i></p1>
+                        <p>Ngách 90 - Ngõ 1194 - Đường Láng<br />
+                            Quận Đống Đa, Thành Phố Hà Nội</p>
+                    </li>
+                    <li>
+                        <p1><i class="fa fa-phone"></i></p1>
+                        <p>+84 964 497 977<br />
+                            +84 987 654 321 </p>
+                    </li>
+                    <li>
+                        <p1><i class="fa fa-envelope"></i></p1>
+                        <p>canhky0212@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <!-- Start modal login -->
     <div class="modal1">
         <div class="modal-container">
@@ -368,7 +426,8 @@
                             <td><input type="password" name="password" style="width:80%" placeholder="Password"></td>
                         </tr>
                         <tr height="80px">
-                            <td colspan="2"><a id="login"><input type="button" value="Đăng nhập" name="submit" onclick="displayResult();"></a></td>
+                            <td colspan="2"><a id="login"><input type="button" value="Đăng nhập" name="submit"
+                                        onclick="displayResult();"></a></td>
                         </tr>
                     </table>
                 </form>
@@ -392,26 +451,32 @@
                     <table>
                         <tr height="40px">
                             <td>Username: </td>
-                            <td><input type="text" name="username" style="width:80%" placeholder="Yêu cầu:7-10 ký tự" ></td>
+                            <td><input type="text" name="username" style="width:80%" placeholder="Yêu cầu:7-10 ký tự">
+                            </td>
                         </tr>
                         <tr height="40px">
                             <td>Email:</td>
-                            <td><input type="email" name="email" style="width:80%" placeholder="Yêu cầu: vidu@vidu.com"></td>
+                            <td><input type="email" name="email" style="width:80%" placeholder="Yêu cầu: vidu@vidu.com">
+                            </td>
                         </tr>
                         <tr height="40px">
                             <td>Phone Number:</td>
-                            <td><input type="text" name="numberphone" style="width:80%" placeholder="Yêu cầu: 10 chữ số"></td>
+                            <td><input type="text" name="numberphone" style="width:80%"
+                                    placeholder="Yêu cầu: 10 chữ số"></td>
                         </tr>
                         <tr height="40px">
                             <td>Password:</td>
-                            <td><input type="password" name="password" style="width:80%" placeholder="Yêu cầu: 7-10 ký tự a-z A-Z 0-9"></td>
+                            <td><input type="password" name="password" style="width:80%"
+                                    placeholder="Yêu cầu: 7-10 ký tự a-z A-Z 0-9"></td>
                         </tr>
                         <tr height="40px">
                             <td>Confirm Password:</td>
-                            <td><input type="password" name="password1" style="width:80%" placeholder="Confirm Password"></td>
+                            <td><input type="password" name="password1" style="width:80%"
+                                    placeholder="Confirm Password"></td>
                         </tr>
                         <tr height="80px">
-                            <td colspan="2"><a id="dki"><input type="button" value="Đăng Kí" name="submit" onclick="displayResult1();"></a></td>
+                            <td colspan="2"><a id="dki"><input type="button" value="Đăng Kí" name="submit"
+                                        onclick="displayResult1();"></a></td>
                         </tr>
                     </table>
                 </form>
@@ -420,4 +485,5 @@
     </div>
     <!-- End modal login -->
 </body>
+
 </html>

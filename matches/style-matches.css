@@ -2,152 +2,147 @@
   color: rgba(255, 255, 255, 0.75) !important;
 }
 
-.matches{
-  font-family: PremierSans-Bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+.matches {
+  font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
   background-color: rgba(0, 0, 0, 0.438);
-  margin: 5% 15% 2%;
+  margin: 10% 15% 2%;
   padding: 5% 2%;
   border-radius: 30px;
   color: #fff;
   width: 70%;
 }
 
-h2.title{
+h2.title {
   text-align: center;
   padding: 10px;
   margin-bottom: -50px;
   border-bottom: 1px solid red;
 }
 
-.dau{
+.dau {
   width: 100%;
-  height:200px;
+  height: 200px;
 }
 
-.matches form{
+.matches form {
   margin-top: -30px;
   width: 100%;
   margin-bottom: 20px;
 }
 
-.matches ul{
+.matches ul {
   text-align: center;
   float: left;
   margin-top: 70px;
 }
 
-.matches li{
+.matches li {
   font-size: 25px;
-  line-height:  40px;
+  line-height: 40px;
   padding: 20px;
   display: inline;
 }
-.matches a{
+.matches a {
   text-decoration: none;
   color: #ccc;
 }
 
-.matches li:hover{
+.matches li:hover {
   background-color: rgb(250, 0, 0);
   border-radius: 10px;
   padding: 10px;
 }
 
-.matches p{
+.matches p {
   color: #fff;
   padding-top: 12px;
   font-size: 20px;
 }
 
-.matches select{
+.matches select {
   margin: 10px 10px 0px 0px;
-
 }
 
-.option{
-  height: 30px; 
+.option {
+  height: 30px;
   width: 20%;
 }
 
-.click{
-  width: 10%; 
+.click {
+  width: 10%;
   margin: 10px 10px 0px 0px;
   height: 30px;
 }
 
-.lich{
+.lich {
   text-align: center;
-  color: #fff; 
-  margin-bottom: 5% ;
+  color: #fff;
+  margin-bottom: 5%;
 }
 
-.form{
+.form {
   width: 100%;
   text-align: center;
 }
 
-.ntt{
+.ntt {
   width: 50%;
 }
 
-.main{
-  width: 100%;
-}
-
-.tgian{
-  width: 10%; 
+.tgian {
+  width: 10%;
   height: 100px;
 }
 
-.trandau{
+.trandau {
   text-align: center;
-  display: flex; 
-  width: 100% ; 
+  display: flex;
+  width: 100%;
   height: 100px;
 }
 
-.clb{
-  width: 30%; 
-  height: 100px;  
+.clb {
+  width: 30%;
+  height: 100px;
   display: flex;
 }
-.tenclb{
+.tenclb {
   text-align: center;
-  width: 50%; 
-  height: 100px;
-}
-
-.logoclb{
   width: 50%;
   height: 100px;
 }
 
-.logoclb img{
+.logoclb {
+  width: 50%;
+  height: 100px;
+}
+
+.logoclb img {
   width: 30%;
 }
-.tgian p{
+.tgian p {
   text-align: center;
-  background-color:rgba(255, 255, 255, 0.2);  
-  padding: 5%; 
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5%;
   border-radius: 10px;
-  color:rgb(0, 255, 0);
+  color: rgb(0, 255, 0);
 }
-.svd{
-  width: 30%; 
-  height: 100px; 
+.svd {
+  width: 30%;
+  height: 100px;
   display: flex;
 }
-.anhsvd{
-  width: 30%; 
+.anhsvd {
+  width: 30%;
   height: 100px;
   text-align: right;
 }
-.tensvd{
-  width: 70%; 
+.tensvd {
+  width: 70%;
   height: 100px;
 }
-.anhsvd img{
+.anhsvd img {
   border-radius: 15%;
-  width: 30%; 
+  width: 30%;
   vertical-align: -20px;
 }

@@ -6,14 +6,16 @@
   background-color: rgba(0, 0, 0, 0.438);
   font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
   width: 90%;
-  margin: 5%;
+  padding: 0% 3% 3% 3%;
+  margin: 10% auto;
   border-radius: 30px;
 }
 .statistic table {
   width: 100%;
   color: #fff;
 }
-th, td {
+th,
+td {
   padding: 1%;
 }
 tr.title {
