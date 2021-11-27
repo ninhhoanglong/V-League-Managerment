@@ -288,7 +288,7 @@ figure > img {
   width: 100%;
   display: flex;
 }
-h2 {
+.footer h2 {
   margin-left: 10%;
   color: #fff;
 }
