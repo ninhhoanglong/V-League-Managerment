@@ -74,3 +74,10 @@ td {
   font-weight: bold;
   color: red;
 }
+@media only screen and (max-width: 1024px) {
+  .container {
+    margin: 5%;
+    float: left;
+    width: 90%;
+  }
+}

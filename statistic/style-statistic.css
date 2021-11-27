@@ -23,3 +23,10 @@ tr.title {
   font-size: 30px;
   border-bottom: 1px solid red;
 }
+@media only screen and (max-width: 1024px) {
+  .statistic {
+    margin: 5%;
+    float: left;
+    width: 90%;
+  }
+}

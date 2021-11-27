@@ -21,3 +21,10 @@
 p.tail {
   text-align: right;
 }
+@media only screen and (max-width: 1024px) {
+  .information {
+    margin: 5%;
+    float: left;
+    width: 90%;
+  }
+}
