@@ -284,6 +284,7 @@ figure>img{
   display: flex;
 }
 h2{
+  margin-left: 10%;
   color: #fff;
 }
 .gioithieu{
@@ -292,6 +293,7 @@ h2{
   width: 20%;
 }
 .gioithieu p , .info li p{
+  margin-left: 10%;
   color: #999;
 }
 .mxh{
@@ -336,10 +338,10 @@ h2{
   margin-right: 10%;
 }
 .info li{
+  display: flex;
   list-style: none;
 }
 .info li p1{
   color: #fff;
   font-size: 100%;
-  margin-right: 5%;
 }
