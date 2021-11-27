@@ -149,9 +149,14 @@ main .nhataitro {
   text-decoration: none;
   color: #ffffff;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 960px) {
   .nhataitro ul li a img {
-    height: 35px;
+    height: 40px;
+  }
+  .nhataitro ul li{
+    float: left;
+    width: 50%;
+    padding: 2%;
   }
 }
 
